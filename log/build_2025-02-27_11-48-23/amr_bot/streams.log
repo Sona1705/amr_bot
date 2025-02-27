@@ -1,0 +1,84 @@
+[0.022s] Invoking command in '/home/npd/Desktop/amr_bot/build/amr_bot': /usr/bin/cmake /home/npd/Desktop/amr_bot -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/npd/Desktop/amr_bot/install/amr_bot
+[0.063s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.361s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.503s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.519s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.551s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.581s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.613s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.699s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.705s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.929s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.064s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.093s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.135s] -- Found controller_manager: 2.48.0 (/opt/ros/humble/share/controller_manager/cmake)
+[1.471s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[1.551s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.627s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.633s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.648s] -- Searching for dependencies of ignition-math6
+[1.654s] -- Looking for OGRE...
+[1.666s] -- Found Ogre Ghadamon (1.9.0)
+[1.666s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.685s] -- Looking for OGRE_Paging...
+[1.685s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.685s] -- Looking for OGRE_Terrain...
+[1.685s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.686s] -- Looking for OGRE_Property...
+[1.686s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.686s] -- Looking for OGRE_RTShaderSystem...
+[1.686s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.687s] -- Looking for OGRE_Volume...
+[1.687s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.687s] -- Looking for OGRE_Overlay...
+[1.687s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.885s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.890s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.892s] -- Searching for dependencies of ignition-transport8
+[1.925s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.947s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.957s] -- Checking for module 'libzmq >= 4'
+[1.987s] --   Found libzmq , version 4.3.4
+[2.067s] -- Checking for module 'uuid'
+[2.091s] --   Found uuid, version 2.37.2
+[2.157s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.158s] -- Searching for dependencies of ignition-msgs5
+[2.193s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.207s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.209s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.210s] -- Searching for dependencies of ignition-common3
+[2.211s] -- Looking for dlfcn.h - found
+[2.211s] -- Looking for libdl - found
+[2.233s] -- Searching for <ignition-common3> component [graphics]
+[2.235s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.236s] -- Searching for dependencies of ignition-common3-graphics
+[2.237s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.241s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.242s] -- Searching for dependencies of ignition-fuel_tools4
+[2.314s] -- Checking for module 'jsoncpp'
+[2.340s] --   Found jsoncpp, version 1.9.5
+[2.416s] -- Checking for module 'libzip'
+[2.442s] --   Found libzip, version 1.7.3
+[2.507s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.508s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.509s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.514s] -- Gazebo version: 11.10
+[2.518s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[2.532s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.537s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.839s] -- Configuring done
+[2.850s] [31mCMake Error at CMakeLists.txt:20 (add_executable):
+[2.850s]   Cannot find source file:
+[2.850s] 
+[2.850s]     src/amr_bot_node.cpp
+[2.851s] 
+[2.851s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[2.851s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[2.851s] 
+[2.851s] [0m
+[2.858s] [31mCMake Error at CMakeLists.txt:20 (add_executable):
+[2.858s]   No SOURCES given to target: amr_bot_node
+[2.858s] 
+[2.859s] [0m
+[2.859s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[2.878s] Invoked command in '/home/npd/Desktop/amr_bot/build/amr_bot' returned '1': /usr/bin/cmake /home/npd/Desktop/amr_bot -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/npd/Desktop/amr_bot/install/amr_bot

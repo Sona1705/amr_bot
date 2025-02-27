@@ -1,5 +1,5 @@
 from launch import LaunchDescription
-from launch.actions import DeclareLaunchArgument,TimerAction
+from launch.actions import DeclareLaunchArgument, TimerAction
 from launch_ros.actions import Node
 from launch.substitutions import LaunchConfiguration, Command, PathJoinSubstitution
 from launch_ros.substitutions import FindPackageShare
@@ -36,14 +36,15 @@ def generate_launch_description():
     robot_state_publisher_node = Node(
         package="robot_state_publisher",
         executable="robot_state_publisher",
-        parameters=[{"use_sim_time": use_sim_time,
-                     "robot_description": Command([
-                         "xacro ",
-                         PathJoinSubstitution([
-                             amr_description_path, "urdf", "amr.urdf.xacro"
-                         ])
-                     ])
-                    }],
+        parameters=[{
+            "use_sim_time": use_sim_time,
+            "robot_description": Command([
+                "xacro ",
+                PathJoinSubstitution([
+                    amr_description_path, "urdf", "amr.urdf.xacro"
+                ])
+            ])
+        }],
         output="screen"
     )
 
@@ -52,24 +53,22 @@ def generate_launch_description():
         amr_controller_path, "config", "amr_controllers.yaml"
     ])
 
-     # ros2_control_node
+    # ROS 2 Control Node
     ros2_control_node = Node(
         package="controller_manager",
         executable="ros2_control_node",
         parameters=[
-           config_file,
-           {"wheel_radius": wheel_radius, "wheel_separation": wheel_separation, "use_sim_time": use_sim_time},
-           {"some_other_param": "value"}  # Add other parameters as needed
-    ],
-    output="screen"
-)
-
+            {"use_sim_time": use_sim_time},  # Ensure simulation time is considered
+            config_file  # This should be properly formatted in your YAML file
+        ],
+        output="screen"
+    )
 
     # Spawner for joint_state_broadcaster
     joint_state_broadcaster_spawner = Node(
         package="controller_manager",
         executable="spawner",
-        arguments=["joint_state_broadcaster", "--controller-manager", "/controller_manager"],
+        arguments=["joint_state_broadcaster", "--controller-manager", "controller_manager"],
         output="screen",
     )
 
@@ -77,16 +76,17 @@ def generate_launch_description():
     diff_drive_controller_spawner = Node(
         package="controller_manager",
         executable="spawner",
-        arguments=["diff_drive_controller", "--controller-manager", "/controller_manager"],
+        arguments=["diff_drive_controller", "--controller-manager", "controller_manager"],
         output="screen",
     )
 
-     # Timer action to wait before spawning controllers
+    # Timer action to wait before spawning controllers
     wait_for_ros2_control = TimerAction(
         period=2.0,  # Wait for 2 seconds before spawning controllers
         actions=[joint_state_broadcaster_spawner, diff_drive_controller_spawner]
     )
-     # Return LaunchDescription with delay before spawning controllers
+
+    # Return LaunchDescription with delay before spawning controllers
     return LaunchDescription([
         use_sim_time_arg,
         wheel_radius_arg,
