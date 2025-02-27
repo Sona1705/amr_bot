@@ -1,0 +1,97 @@
+[0.918s] Invoking command in '/home/npd/Desktop/amr_bot/build/amr_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_py_examples:/home/npd/Desktop/amr_bot/install/amr_controller:/opt/ros/humble /usr/bin/cmake /home/npd/Desktop/amr_bot/src/amr_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/npd/Desktop/amr_bot/install/amr_description
+[0.969s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.464s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.525s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[1.671s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.683s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.712s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.751s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.843s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.069s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.096s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.736s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.272s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[3.467s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[3.486s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.534s] -- Searching for dependencies of ignition-math6
+[3.545s] -- Looking for OGRE...
+[3.574s] -- Found Ogre Ghadamon (1.9.0)
+[3.577s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[3.622s] -- Looking for OGRE_Paging...
+[3.623s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[3.623s] -- Looking for OGRE_Terrain...
+[3.623s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[3.623s] -- Looking for OGRE_Property...
+[3.624s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[3.625s] -- Looking for OGRE_RTShaderSystem...
+[3.625s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[3.625s] -- Looking for OGRE_Volume...
+[3.626s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[3.626s] -- Looking for OGRE_Overlay...
+[3.630s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[4.206s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.208s] -- Looking for ignition-transport8 -- found version 8.2.1
+[4.210s] -- Searching for dependencies of ignition-transport8
+[4.277s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[4.332s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[4.350s] -- Checking for module 'libzmq >= 4'
+[4.430s] --   Found libzmq , version 4.3.4
+[4.681s] -- Checking for module 'uuid'
+[4.787s] --   Found uuid, version 2.37.2
+[5.024s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[5.030s] -- Searching for dependencies of ignition-msgs5
+[5.147s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.183s] -- Checking for module 'tinyxml2'
+[5.241s] --   Found tinyxml2, version 9.0.0
+[5.451s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[5.459s] -- Looking for ignition-common3 -- found version 3.14.0
+[5.463s] -- Searching for dependencies of ignition-common3
+[5.466s] -- Looking for dlfcn.h - found
+[5.466s] -- Looking for libdl - found
+[5.526s] -- Searching for <ignition-common3> component [graphics]
+[5.529s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[5.535s] -- Searching for dependencies of ignition-common3-graphics
+[5.538s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.547s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[5.547s] -- Searching for dependencies of ignition-fuel_tools4
+[5.711s] -- Checking for module 'jsoncpp'
+[5.755s] --   Found jsoncpp, version 1.9.5
+[5.925s] -- Checking for module 'libzip'
+[5.970s] --   Found libzip, version 1.7.3
+[6.105s] -- Looking for ignition-common3 -- found version 3.14.0
+[6.105s] -- Looking for ignition-math6 -- found version 6.15.1
+[6.105s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[6.116s] -- Gazebo version: 11.10
+[6.128s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[6.471s] -- Configuring done
+[6.548s] -- Generating done
+[6.566s] -- Build files have been written to: /home/npd/Desktop/amr_bot/build/amr_description
+[6.633s] Invoked command in '/home/npd/Desktop/amr_bot/build/amr_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_py_examples:/home/npd/Desktop/amr_bot/install/amr_controller:/opt/ros/humble /usr/bin/cmake /home/npd/Desktop/amr_bot/src/amr_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/npd/Desktop/amr_bot/install/amr_description
+[6.638s] Invoking command in '/home/npd/Desktop/amr_bot/build/amr_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_py_examples:/home/npd/Desktop/amr_bot/install/amr_controller:/opt/ros/humble /usr/bin/cmake --build /home/npd/Desktop/amr_bot/build/amr_description -- -j4 -l4
+[6.996s] Invoked command in '/home/npd/Desktop/amr_bot/build/amr_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_py_examples:/home/npd/Desktop/amr_bot/install/amr_controller:/opt/ros/humble /usr/bin/cmake --build /home/npd/Desktop/amr_bot/build/amr_description -- -j4 -l4
+[7.000s] Invoking command in '/home/npd/Desktop/amr_bot/build/amr_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_py_examples:/home/npd/Desktop/amr_bot/install/amr_controller:/opt/ros/humble /usr/bin/cmake --install /home/npd/Desktop/amr_bot/build/amr_description
+[7.040s] -- Install configuration: ""
+[7.043s] -- Execute custom install script
+[7.044s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description//urdf/amr.urdf.xacro
+[7.046s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description//urdf/amr_gazebo.xacro
+[7.050s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description//urdf/amr_ros2_control.xacro
+[7.055s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description//launch/__pycache__/display.launch.cpython-310.pyc
+[7.055s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description//launch/__pycache__/display_fixed.launch.cpython-310.pyc
+[7.055s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description//launch/display_fixed.launch.py
+[7.056s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description//launch/gazebo.launch.py
+[7.057s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_description/share/ament_index/resource_index/package_run_dependencies/amr_description
+[7.057s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_description/share/ament_index/resource_index/parent_prefix_path/amr_description
+[7.076s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/environment/ament_prefix_path.sh
+[7.077s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/environment/ament_prefix_path.dsv
+[7.077s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/environment/path.sh
+[7.077s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/environment/path.dsv
+[7.078s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/local_setup.bash
+[7.078s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/local_setup.sh
+[7.078s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/local_setup.zsh
+[7.083s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/local_setup.dsv
+[7.086s] -- Symlinking: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/package.dsv
+[7.130s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_description/share/ament_index/resource_index/packages/amr_description
+[7.130s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/cmake/amr_descriptionConfig.cmake
+[7.137s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/cmake/amr_descriptionConfig-version.cmake
+[7.137s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/package.xml
+[7.172s] Invoked command in '/home/npd/Desktop/amr_bot/build/amr_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_py_examples:/home/npd/Desktop/amr_bot/install/amr_controller:/opt/ros/humble /usr/bin/cmake --install /home/npd/Desktop/amr_bot/build/amr_description

@@ -1,0 +1,243 @@
+<?xml version="1.0"?>
+<robot name="amr_robot" xmlns:xacro="http://ros.org/wiki/xacro">
+  
+  <!-- Start GZ or Ignition depending on ROS 2 Version -->
+  <xacro:arg name="is_ignition" default="true"/>
+  <xacro:arg name="is_sim" default="true"/>
+
+  <!-- Include Gazebo Parameters -->
+  <xacro:include filename="$(find amr_description)/urdf/amr_gazebo.xacro" />
+
+  <!-- Include the ros2_control file -->
+  <xacro:include filename="$(find amr_description)/urdf/amr_ros2_control.xacro" />
+
+  <!-- Call the macro with appropriate arguments (Correct usage) -->
+  <xacro:amr_ros2_control is_sim="$(arg is_sim)" is_ignition="$(arg is_ignition)"/>
+
+
+<gazebo>
+  <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
+    <robot_param>robot_description</robot_param>
+  </plugin>
+</gazebo>
+
+<link name="base_footprint"/>
+<link name="base_link">
+<inertial>
+<!-- Slightly increase the mass for better stability -->
+<origin xyz="0 0 0.1" rpy="0.0 0.0 0.0"/>
+<mass value="1.2"/>
+<!-- Increased from 0.82573504 -->
+<inertia ixx="0.03" ixy="-0.0001" ixz="0.0003" iyy="0.03" iyz="-0.00005" izz="0.025"/>
+</inertial>
+<visual>
+<geometry>
+<box size="1.195 0.925 0.385"/>
+<!-- Slightly increased height for center of gravity -->
+</geometry>
+<origin xyz="0 0 0.1" rpy="0 0 0"/>
+<material name="Green">
+  <color rgba="0 1 0 1"/> <!-- Green color (R,G,B,A) -->
+</material>
+
+</visual>
+<collision>
+<geometry>
+<box size="1.195 0.925 0.385"/>
+</geometry>
+<origin xyz="0 0 0.1" rpy="0 0 0"/>
+</collision>
+</link>
+<link name="lidar">
+<inertial>
+<origin xyz="0 0 0" rpy="0 0 0"/>
+<mass value="0.6"/>
+<!-- Slightly increased mass for stability -->
+<inertia ixx="0.0006" ixy="0" ixz="0" iyy="0.0006" iyz="0" izz="0.0006"/>
+</inertial>
+<visual>
+<geometry>
+<cylinder radius="0.1" length="0.05"/>
+</geometry>
+<material name="red">
+  <color rgba="1 0 0 1"/> 
+</material>
+<origin xyz="0 0 0.1" rpy="0 0 0"/>
+</visual>
+<collision>
+<geometry>
+<cylinder radius="0.1" length="0.05"/>
+</geometry>
+<origin xyz="0 0 0.1" rpy="0 0 0"/>
+</collision>
+</link>
+<link name="wheel_left_link">
+<inertial>
+<origin xyz="0 0 0" rpy="0 0 0"/>
+<mass value="0.065"/>
+<!-- Increased mass for wheels to improve control -->
+<inertia ixx="0.00002" ixy="0" ixz="0" iyy="0.00004" iyz="0" izz="0.00002"/>
+</inertial>
+<visual>
+<geometry>
+<cylinder radius="0.09" length="0.06"/>
+<!-- Slightly larger wheel for better grip -->
+</geometry>
+<origin xyz="0 0 0" rpy="1.57 0 0"/>
+</visual>
+<collision>
+<geometry>
+<cylinder radius="0.08" length="0.05"/>
+</geometry>
+<origin xyz="0 0 0" rpy="1.57 0 0"/>
+</collision>
+</link>
+<link name="wheel_right_link">
+<inertial>
+<origin xyz="0 0 0" rpy="0 0 0"/>
+<mass value="0.065"/>
+<!-- Match mass for left and right wheels -->
+<inertia ixx="0.00002" ixy="0" ixz="0" iyy="0.00004" iyz="0" izz="0.00002"/>
+</inertial>
+<visual>
+<geometry>
+<cylinder radius="0.08" length="0.05"/>
+</geometry>
+<origin xyz="0 0 0" rpy="-1.57 0 0"/>
+</visual>
+<collision>
+<geometry>
+<cylinder radius="0.09" length="0.06"/>
+</geometry>
+<origin xyz="0 0 0" rpy="-1.57 0 0"/>
+</collision>
+</link>
+<link name="caster_wheel_front">
+<inertial>
+<origin xyz="0 0 0" rpy="0 0 0"/>
+<mass value="0.00144379265037902"/>
+<inertia ixx="0.0000000000723075276010246" ixy="0" ixz="0" iyy="0.0000000000387137930859167" iyz="0" izz="0.000000000100967486676306"/>
+</inertial>
+<visual>
+<geometry>
+<cylinder radius="0.08" length="0.05"/>
+</geometry>
+<origin xyz="0 0 0" rpy="-1.57 0 0"/>
+</visual>
+<collision>
+<geometry>
+<sphere radius="0.08"/>
+</geometry>
+<origin xyz="0 0 0" rpy="0 0 0"/>
+</collision>
+</link>
+<link name="caster_wheel_rear">
+<inertial>
+<origin xyz="0 0 0" rpy="0 0 0"/>
+<mass value="0.00144379265037902"/>
+<inertia ixx="0.0000000000723075276010246" ixy="0" ixz="0" iyy="0.0000000000387137930859167" iyz="0" izz="0.000000000100967486676306"/>
+</inertial>
+<visual>
+<geometry>
+<cylinder radius="0.08" length="0.05"/>
+</geometry>
+<origin xyz="0 0 0" rpy="-1.57 0 0"/>
+</visual>
+<collision>
+<geometry>
+<sphere radius="0.08"/>
+</geometry>
+<origin xyz="0 0 0" rpy="0 0 0"/>
+</collision>
+</link>
+<link name="caster1_wheel_front">
+<inertial>
+<origin xyz="0 0 0" rpy="0 0 0"/>
+<mass value="0.00144379265037902"/>
+<inertia ixx="0.0000000000723075276010246" ixy="0" ixz="0" iyy="0.0000000000387137930859167" iyz="0" izz="0.000000000100967486676306"/>
+</inertial>
+<visual>
+<geometry>
+<cylinder radius="0.08" length="0.05"/>
+</geometry>
+<origin xyz="0 0 0" rpy="-1.57 0 0"/>
+</visual>
+<collision>
+<geometry>
+<sphere radius="0.05"/>
+</geometry>
+<origin xyz="0 0 0" rpy="0 0 0"/>
+</collision>
+</link>
+<link name="caster2_wheel_rear">
+<inertial>
+<origin xyz="0 0 0" rpy="0 0 0"/>
+<mass value="0.00144379265037902"/>
+<inertia ixx="0.0000000000723075276010246" ixy="0" ixz="0" iyy="0.0000000000387137930859167" iyz="0" izz="0.000000000100967486676306"/>
+</inertial>
+<visual>
+<geometry>
+<cylinder radius="0.08" length="0.05"/>
+</geometry>
+<origin xyz="0 0 0" rpy="-1.57 0 0"/>
+</visual>
+<collision>
+<geometry>
+<sphere radius="0.05"/>
+</geometry>
+<origin xyz="0 0 0" rpy="0 0 0"/>
+</collision>
+</link>
+<!-- Caster Wheels and other links remain unchanged -->
+<!-- Joints -->
+<joint name="base_joint" type="fixed">
+<parent link="base_footprint"/>
+<child link="base_link"/>
+<origin xyz="0 0 0.1" rpy="0 0 0"/>
+</joint>
+<joint name="base_lidar_joint" type="fixed">
+<parent link="base_link"/>
+<child link="lidar"/>
+<origin xyz="0 0 0.15" rpy="0 0 0"/>
+</joint>
+<!-- Fine-tuned joint parameters -->
+<joint name="wheel_right_joint" type="continuous">
+<parent link="base_link"/>
+<child link="wheel_right_link"/>
+<origin xyz="-0.05 0.34 -0.09" rpy="0 0 0"/>
+<!-- Increased distance for better stability -->
+<axis xyz="0 1 0"/>
+</joint>
+<joint name="wheel_left_joint" type="continuous">
+<parent link="base_link"/>
+<child link="wheel_left_link"/>
+<origin xyz="-0.05 -0.34 -0.09" rpy="0 0 0"/>
+<!-- Symmetrical adjustment -->
+<axis xyz="0 1 0"/>
+</joint>
+<!-- Rest of the caster wheel joints remain unchanged -->
+<joint name="front_caster_wheel_joint" type="fixed">
+<parent link="base_link"/>
+<child link="caster_wheel_front"/>
+<origin xyz="0.4 0.32 -0.09" rpy="0 0 0"/>
+<axis xyz="0 1 0"/>
+</joint>
+<joint name="rear_caster_wheel_joint" type="fixed">
+<parent link="base_link"/>
+<child link="caster_wheel_rear"/>
+<origin xyz="0.4 -0.32 -0.09" rpy="0 0 0"/>
+<axis xyz="0 1 0"/>
+</joint>
+<joint name="front_caster1_wheel_joint" type="fixed">
+<parent link="base_link"/>
+<child link="caster1_wheel_front"/>
+<origin xyz="-0.4 -0.32 -0.09" rpy="0 0 0"/>
+<axis xyz="0 1 0"/>
+</joint>
+<joint name="rear_caster2_wheel_joint" type="fixed">
+<parent link="base_link"/>
+<child link="caster2_wheel_rear"/>
+<origin xyz="-0.4 0.32 -0.09" rpy="0 0 0"/>
+<axis xyz="0 1 0"/>
+</joint>
+</robot>

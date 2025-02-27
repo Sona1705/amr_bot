@@ -1,0 +1,7 @@
+amr_controller:
+  ros__parameters:
+    use_sim_time: true
+    linear_axis: 1    # Example: Axis index for linear movement
+    angular_axis: 0   # Example: Axis index for angular movement
+    max_linear_speed: 1.0
+    max_angular_speed: 2.0

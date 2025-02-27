@@ -1,0 +1,50 @@
+import os
+from launch import LaunchDescription
+from launch.actions import DeclareLaunchArgument
+from launch.substitutions import LaunchConfiguration, Command
+from launch_ros.actions import Node
+from ament_index_python.packages import get_package_share_directory
+
+
+def generate_launch_description():
+    # Get the path for the amr_description package
+    amr_description_dir = get_package_share_directory("amr_description")
+    
+    # Declare a launch argument for the model file
+    model_arg = DeclareLaunchArgument(
+        name="model",
+        default_value=os.path.join(amr_description_dir, "urdf", "amr.urdf.xacro"),
+        description="Absolute path to robot xacro file"
+    )
+    
+    # Robot State Publisher node with proper xacro parsing
+    robot_state_publisher_node = Node(
+        package="robot_state_publisher",
+        executable="robot_state_publisher",
+        parameters=[{
+            "robot_description": Command(["xacro ", LaunchConfiguration("model")])
+        }]
+    )
+
+    # Joint State Publisher GUI
+    joint_state_publisher_gui_node = Node(
+        package="joint_state_publisher_gui",
+        executable="joint_state_publisher_gui"
+    )
+    
+    # RViz2 Node
+    rviz_node = Node(
+        package="rviz2",
+        executable="rviz2",
+        name="rviz2",
+        output="screen",
+        arguments=["-d", os.path.join(amr_description_dir, "rviz", "amr.rviz")],
+    )
+     
+    # Return the corrected LaunchDescription
+    return LaunchDescription([
+        model_arg,
+        joint_state_publisher_gui_node,
+        robot_state_publisher_node,
+        rviz_node
+    ])

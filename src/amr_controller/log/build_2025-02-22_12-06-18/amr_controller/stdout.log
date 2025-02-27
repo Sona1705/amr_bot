@@ -1,0 +1,31 @@
+running egg_info
+creating build/amr_controller/amr_controller.egg-info
+writing build/amr_controller/amr_controller.egg-info/PKG-INFO
+writing dependency_links to build/amr_controller/amr_controller.egg-info/dependency_links.txt
+writing entry points to build/amr_controller/amr_controller.egg-info/entry_points.txt
+writing requirements to build/amr_controller/amr_controller.egg-info/requires.txt
+writing top-level names to build/amr_controller/amr_controller.egg-info/top_level.txt
+writing manifest file 'build/amr_controller/amr_controller.egg-info/SOURCES.txt'
+reading manifest file 'build/amr_controller/amr_controller.egg-info/SOURCES.txt'
+writing manifest file 'build/amr_controller/amr_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/npd/Desktop/amr_bot/src/amr_controller/build/amr_controller/build
+creating /home/npd/Desktop/amr_bot/src/amr_controller/build/amr_controller/build/lib
+creating /home/npd/Desktop/amr_bot/src/amr_controller/build/amr_controller/build/lib/amr_controller
+copying amr_controller/controller_node.py -> /home/npd/Desktop/amr_bot/src/amr_controller/build/amr_controller/build/lib/amr_controller
+copying amr_controller/__init__.py -> /home/npd/Desktop/amr_bot/src/amr_controller/build/amr_controller/build/lib/amr_controller
+running install
+running install_lib
+creating /home/npd/Desktop/amr_bot/src/amr_controller/install/amr_controller/lib/python3.10/site-packages/amr_controller
+copying /home/npd/Desktop/amr_bot/src/amr_controller/build/amr_controller/build/lib/amr_controller/controller_node.py -> /home/npd/Desktop/amr_bot/src/amr_controller/install/amr_controller/lib/python3.10/site-packages/amr_controller
+copying /home/npd/Desktop/amr_bot/src/amr_controller/build/amr_controller/build/lib/amr_controller/__init__.py -> /home/npd/Desktop/amr_bot/src/amr_controller/install/amr_controller/lib/python3.10/site-packages/amr_controller
+byte-compiling /home/npd/Desktop/amr_bot/src/amr_controller/install/amr_controller/lib/python3.10/site-packages/amr_controller/controller_node.py to controller_node.cpython-310.pyc
+byte-compiling /home/npd/Desktop/amr_bot/src/amr_controller/install/amr_controller/lib/python3.10/site-packages/amr_controller/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/npd/Desktop/amr_bot/src/amr_controller/install/amr_controller/share/ament_index
+creating /home/npd/Desktop/amr_bot/src/amr_controller/install/amr_controller/share/ament_index/resource_index
+creating /home/npd/Desktop/amr_bot/src/amr_controller/install/amr_controller/share/ament_index/resource_index/packages
+copying resource/amr_controller -> /home/npd/Desktop/amr_bot/src/amr_controller/install/amr_controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/npd/Desktop/amr_bot/src/amr_controller/install/amr_controller/share/amr_controller
+creating /home/npd/Desktop/amr_bot/src/amr_controller/install/amr_controller/share/amr_controller/launch

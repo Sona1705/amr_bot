@@ -1,0 +1,9 @@
+/home/npd/Desktop/amr_bot/build/amr_cpp_examples/CMakeFiles/uninstall.dir
+/home/npd/Desktop/amr_bot/build/amr_cpp_examples/CMakeFiles/amr_cpp_examples_uninstall.dir
+/home/npd/Desktop/amr_bot/build/amr_cpp_examples/CMakeFiles/test.dir
+/home/npd/Desktop/amr_bot/build/amr_cpp_examples/CMakeFiles/edit_cache.dir
+/home/npd/Desktop/amr_bot/build/amr_cpp_examples/CMakeFiles/rebuild_cache.dir
+/home/npd/Desktop/amr_bot/build/amr_cpp_examples/CMakeFiles/list_install_components.dir
+/home/npd/Desktop/amr_bot/build/amr_cpp_examples/CMakeFiles/install.dir
+/home/npd/Desktop/amr_bot/build/amr_cpp_examples/CMakeFiles/install/local.dir
+/home/npd/Desktop/amr_bot/build/amr_cpp_examples/CMakeFiles/install/strip.dir

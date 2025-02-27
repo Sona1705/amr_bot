@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+amr_py_examples/__init__.py
+amr_py_examples/simple_publisher.py
+amr_py_examples/simple_subscriber.py
+amr_py_examples.egg-info/PKG-INFO
+amr_py_examples.egg-info/SOURCES.txt
+amr_py_examples.egg-info/dependency_links.txt
+amr_py_examples.egg-info/entry_points.txt
+amr_py_examples.egg-info/requires.txt
+amr_py_examples.egg-info/top_level.txt
+amr_py_examples.egg-info/zip-safe
+resource/amr_py_examples

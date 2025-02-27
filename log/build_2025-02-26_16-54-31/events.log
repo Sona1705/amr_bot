@@ -1,0 +1,210 @@
+[0.000000] (-) TimerEvent: {}
+[0.001096] (amr_bot) JobQueued: {'identifier': 'amr_bot', 'dependencies': OrderedDict()}
+[0.002379] (amr_bot) JobStarted: {'identifier': 'amr_bot'}
+[0.025712] (amr_bot) JobProgress: {'identifier': 'amr_bot', 'progress': 'cmake'}
+[0.026565] (amr_bot) Command: {'cmd': ['/usr/bin/cmake', '/home/npd/Desktop/amr_bot', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/npd/Desktop/amr_bot/install/amr_bot'], 'cwd': '/home/npd/Desktop/amr_bot/build/amr_bot', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'npd'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/npd'), ('OLDPWD', '/home/npd/Desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1347'), ('SYSTEMD_EXEC_PID', '1512'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/npd/Desktop/amr_bot/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'npd'), ('JOURNAL_STREAM', '8:12558'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'npd'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/npd/Desktop/amr_bot/src/amr_description/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/npd-Latitude-3480:@/tmp/.ICE-unix/1476,unix/npd-Latitude-3480:/tmp/.ICE-unix/1476'), ('INVOCATION_ID', '1eb7c8f8db6245ab8c1edc9c415500b1'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6FQ612'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/npd/Desktop/amr_bot/install/amr_py_examples:/home/npd/Desktop/amr_bot/install/amr_description:/home/npd/Desktop/amr_bot/install/amr_cpp_examples:/home/npd/Desktop/amr_bot/install/amr_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:78e9c390-abf1-49e2-a00d-9180f9599c51'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/npd/Desktop/amr_bot/build/amr_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/npd/Desktop/amr_bot/build/amr_py_examples:/home/npd/Desktop/amr_bot/install/amr_py_examples/lib/python3.10/site-packages:/home/npd/Desktop/amr_bot/install/amr_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/npd/Desktop/amr_bot/install/amr_description:/home/npd/Desktop/amr_bot/install/amr_cpp_examples')]), 'shell': False}
+[0.099247] (-) TimerEvent: {}
+[0.200695] (-) TimerEvent: {}
+[0.297167] (amr_bot) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.300815] (-) TimerEvent: {}
+[0.401262] (-) TimerEvent: {}
+[0.503619] (-) TimerEvent: {}
+[0.600725] (amr_bot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.603705] (-) TimerEvent: {}
+[0.627013] (amr_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.703828] (-) TimerEvent: {}
+[0.804456] (-) TimerEvent: {}
+[0.827530] (amr_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.862412] (amr_bot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.865716] (amr_bot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.868459] (amr_bot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.875549] (amr_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.904505] (-) TimerEvent: {}
+[1.005037] (-) TimerEvent: {}
+[1.105725] (-) TimerEvent: {}
+[1.114414] (amr_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.148026] (amr_bot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.149539] (amr_bot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.152639] (amr_bot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.171200] (amr_bot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.205850] (-) TimerEvent: {}
+[1.306208] (-) TimerEvent: {}
+[1.406611] (-) TimerEvent: {}
+[1.507026] (-) TimerEvent: {}
+[1.605560] (amr_bot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.607123] (-) TimerEvent: {}
+[1.707513] (-) TimerEvent: {}
+[1.807934] (-) TimerEvent: {}
+[1.869939] (amr_bot) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.908071] (-) TimerEvent: {}
+[1.995297] (amr_bot) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.008195] (-) TimerEvent: {}
+[2.009991] (amr_bot) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.031637] (amr_bot) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.073963] (amr_bot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.108305] (-) TimerEvent: {}
+[2.122196] (amr_bot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.208485] (-) TimerEvent: {}
+[2.266910] (amr_bot) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.275504] (amr_bot) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.308644] (-) TimerEvent: {}
+[2.409078] (-) TimerEvent: {}
+[2.503645] (amr_bot) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.509201] (-) TimerEvent: {}
+[2.578998] (amr_bot) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.609506] (-) TimerEvent: {}
+[2.681872] (amr_bot) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.707813] (amr_bot) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.709856] (-) TimerEvent: {}
+[2.810408] (-) TimerEvent: {}
+[2.910917] (-) TimerEvent: {}
+[2.943505] (amr_bot) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.943880] (amr_bot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.011408] (-) TimerEvent: {}
+[3.112840] (-) TimerEvent: {}
+[3.200034] (amr_bot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.203035] (amr_bot) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.214248] (-) TimerEvent: {}
+[3.314735] (-) TimerEvent: {}
+[3.406175] (amr_bot) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[3.414837] (-) TimerEvent: {}
+[3.474623] (amr_bot) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.514968] (-) TimerEvent: {}
+[3.578923] (amr_bot) StdoutLine: {'line': b'-- Found controller_manager: 2.48.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[3.615705] (-) TimerEvent: {}
+[3.716523] (-) TimerEvent: {}
+[3.817143] (-) TimerEvent: {}
+[3.917518] (-) TimerEvent: {}
+[4.018373] (-) TimerEvent: {}
+[4.121111] (-) TimerEvent: {}
+[4.222501] (-) TimerEvent: {}
+[4.296188] (amr_bot) StdoutLine: {'line': b'-- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[4.322810] (-) TimerEvent: {}
+[4.332927] (amr_bot) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[4.339653] (amr_bot) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[4.378941] (amr_bot) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[4.422938] (-) TimerEvent: {}
+[4.523702] (-) TimerEvent: {}
+[4.624611] (-) TimerEvent: {}
+[4.694574] (amr_bot) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[4.724954] (-) TimerEvent: {}
+[4.825714] (-) TimerEvent: {}
+[4.843201] (amr_bot) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[4.897369] (amr_bot) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[4.925855] (-) TimerEvent: {}
+[4.981757] (amr_bot) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[5.026226] (-) TimerEvent: {}
+[5.031517] (amr_bot) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[5.045794] (amr_bot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[5.064209] (amr_bot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[5.067528] (amr_bot) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[5.069147] (amr_bot) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[5.085760] (amr_bot) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[5.126604] (-) TimerEvent: {}
+[5.127554] (amr_bot) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[5.224375] (amr_bot) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[5.226702] (-) TimerEvent: {}
+[5.248317] (amr_bot) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[5.277778] (amr_bot) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[5.297894] (amr_bot) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[5.299682] (amr_bot) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[5.321885] (amr_bot) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[5.322271] (amr_bot) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[5.326784] (-) TimerEvent: {}
+[5.342804] (amr_bot) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[5.344506] (amr_bot) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[5.364274] (amr_bot) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[5.366269] (amr_bot) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[5.384120] (amr_bot) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[5.384968] (amr_bot) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[5.406936] (amr_bot) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[5.426932] (-) TimerEvent: {}
+[5.528286] (-) TimerEvent: {}
+[5.628732] (-) TimerEvent: {}
+[5.729479] (-) TimerEvent: {}
+[5.830082] (-) TimerEvent: {}
+[5.839668] (amr_bot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[5.847404] (amr_bot) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[5.848871] (amr_bot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[5.900941] (amr_bot) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[5.930218] (-) TimerEvent: {}
+[5.931583] (amr_bot) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[5.946287] (amr_bot) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[5.990466] (amr_bot) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[6.030493] (-) TimerEvent: {}
+[6.097580] (amr_bot) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[6.115400] (amr_bot) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[6.130658] (-) TimerEvent: {}
+[6.152452] (amr_bot) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[6.230776] (-) TimerEvent: {}
+[6.261110] (amr_bot) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[6.267110] (amr_bot) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[6.269500] (amr_bot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[6.331525] (-) TimerEvent: {}
+[6.335089] (amr_bot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[6.354502] (amr_bot) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[6.398589] (amr_bot) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[6.435655] (-) TimerEvent: {}
+[6.536306] (-) TimerEvent: {}
+[6.554609] (amr_bot) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[6.560007] (amr_bot) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[6.561596] (amr_bot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[6.562249] (amr_bot) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[6.566818] (amr_bot) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[6.572234] (amr_bot) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[6.613822] (amr_bot) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[6.616855] (amr_bot) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[6.626292] (amr_bot) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[6.628487] (amr_bot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[6.630393] (amr_bot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[6.637763] (-) TimerEvent: {}
+[6.640031] (amr_bot) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[6.641566] (amr_bot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[6.738082] (-) TimerEvent: {}
+[6.839298] (-) TimerEvent: {}
+[6.871349] (amr_bot) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[6.892907] (amr_bot) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[6.926541] (amr_bot) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[6.939450] (-) TimerEvent: {}
+[7.013623] (amr_bot) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[7.027614] (amr_bot) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[7.039755] (-) TimerEvent: {}
+[7.061546] (amr_bot) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[7.139978] (-) TimerEvent: {}
+[7.148920] (amr_bot) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[7.150178] (amr_bot) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[7.151388] (amr_bot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[7.153092] (amr_bot) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[7.162682] (amr_bot) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[7.163366] (amr_bot) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[7.199673] (amr_bot) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[7.240071] (-) TimerEvent: {}
+[7.295308] (amr_bot) StdoutLine: {'line': b'-- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)\n'}
+[7.331660] (amr_bot) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[7.336333] (amr_bot) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[7.337049] (amr_bot) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[7.340253] (-) TimerEvent: {}
+[7.440768] (-) TimerEvent: {}
+[7.541408] (-) TimerEvent: {}
+[7.641798] (-) TimerEvent: {}
+[7.742304] (-) TimerEvent: {}
+[7.840839] (amr_bot) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.842573] (-) TimerEvent: {}
+[7.855388] (amr_bot) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:20 (add_executable):\n'}
+[7.856398] (amr_bot) StderrLine: {'line': b'  Cannot find source file:\n'}
+[7.858004] (amr_bot) StderrLine: {'line': b'\n'}
+[7.858884] (amr_bot) StderrLine: {'line': b'    src/amr_bot_node.cpp\n'}
+[7.859510] (amr_bot) StderrLine: {'line': b'\n'}
+[7.859943] (amr_bot) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[7.860242] (amr_bot) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[7.860545] (amr_bot) StderrLine: {'line': b'\n'}
+[7.860966] (amr_bot) StderrLine: {'line': b'\x1b[0m\n'}
+[7.872719] (amr_bot) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:20 (add_executable):\n'}
+[7.873838] (amr_bot) StderrLine: {'line': b'  No SOURCES given to target: amr_bot_node\n'}
+[7.874884] (amr_bot) StderrLine: {'line': b'\n'}
+[7.876410] (amr_bot) StderrLine: {'line': b'\x1b[0m\n'}
+[7.877451] (amr_bot) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[7.911494] (amr_bot) CommandEnded: {'returncode': 1}
+[7.942780] (-) TimerEvent: {}
+[7.977526] (amr_bot) JobEnded: {'identifier': 'amr_bot', 'rc': 1}
+[7.989248] (-) EventReactorShutdown: {}

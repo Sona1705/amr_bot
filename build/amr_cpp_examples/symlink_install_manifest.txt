@@ -1,0 +1,15 @@
+/home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/ament_index/resource_index/package_run_dependencies/amr_cpp_examples
+/home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/ament_index/resource_index/parent_prefix_path/amr_cpp_examples
+/home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/amr_cpp_examples/environment/ament_prefix_path.sh
+/home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/amr_cpp_examples/environment/ament_prefix_path.dsv
+/home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/amr_cpp_examples/environment/path.sh
+/home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/amr_cpp_examples/environment/path.dsv
+/home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/amr_cpp_examples/local_setup.bash
+/home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/amr_cpp_examples/local_setup.sh
+/home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/amr_cpp_examples/local_setup.zsh
+/home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/amr_cpp_examples/local_setup.dsv
+/home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/amr_cpp_examples/package.dsv
+/home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/ament_index/resource_index/packages/amr_cpp_examples
+/home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/amr_cpp_examples/cmake/amr_cpp_examplesConfig.cmake
+/home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/amr_cpp_examples/cmake/amr_cpp_examplesConfig-version.cmake
+/home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/amr_cpp_examples/package.xml
