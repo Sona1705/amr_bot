@@ -63,6 +63,15 @@ def generate_launch_description():
         ],
         output="screen"
     )
+    # ROS 2 Controller_manager
+    controller_manager = Node(
+        package="controller_manager",
+        executable="ros2_control_node",
+        parameters=[
+            {"use_sim_time": True
+        }, config_file],
+        output="screen"
+    )
 
     # Spawner for joint_state_broadcaster
     joint_state_broadcaster_spawner = Node(
@@ -94,6 +103,7 @@ def generate_launch_description():
         robot_state_publisher_node,
         ros2_control_node,
         wait_for_ros2_control  # Adding the delay action here
+        
     ])
 
 
