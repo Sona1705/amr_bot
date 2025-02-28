@@ -1,1 +1,0 @@
-/home/npd/Desktop/amr_bot/src/amr_controller/launch/teleop_joystick.launch.py

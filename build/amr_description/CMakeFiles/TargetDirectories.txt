@@ -1,9 +1,0 @@
-/home/npd/Desktop/amr_bot/build/amr_description/CMakeFiles/uninstall.dir
-/home/npd/Desktop/amr_bot/build/amr_description/CMakeFiles/amr_description_uninstall.dir
-/home/npd/Desktop/amr_bot/build/amr_description/CMakeFiles/test.dir
-/home/npd/Desktop/amr_bot/build/amr_description/CMakeFiles/edit_cache.dir
-/home/npd/Desktop/amr_bot/build/amr_description/CMakeFiles/rebuild_cache.dir
-/home/npd/Desktop/amr_bot/build/amr_description/CMakeFiles/list_install_components.dir
-/home/npd/Desktop/amr_bot/build/amr_description/CMakeFiles/install.dir
-/home/npd/Desktop/amr_bot/build/amr_description/CMakeFiles/install/local.dir
-/home/npd/Desktop/amr_bot/build/amr_description/CMakeFiles/install/strip.dir
