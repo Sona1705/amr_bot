@@ -2,22 +2,21 @@
 
 <robot xmlns:xacro="http://ros.org/wiki/xacro" name="amr_robot">
 
- 
-  <ros2_control name="RobotSystem" type="system">
+  <xacro:macro name="amr_ros2_control" params="is_sim is_ignition">
+    <ros2_control name="RobotSystem" type="system">
 
-     
-       <xacro:if value="$(arg is_ignition)">
-          <hardware>
-            <plugin>ign_ros2_control/IgnitionSystem</plugin>
-          </hardware>
-        </xacro:if>
+      <!-- Corrected condition handling -->
+      <xacro:if value="${is_ignition}">
+        <hardware>
+          <plugin>ign_ros2_control/IgnitionSystem</plugin>
+        </hardware>
+      </xacro:if>
 
-        <xacro:unless value="$(arg is_ignition)">
-          <hardware>
-            <plugin>gz_ros2_control/GazeboSimSystem</plugin>
-          </hardware>
-        </xacro:unless>
-
+      <xacro:unless value="${is_ignition}">
+        <hardware>
+          <plugin>gz_ros2_control/GazeboSimSystem</plugin>
+        </hardware>
+      </xacro:unless>
 
       <!-- ros2_control Common Interfaces -->
       <joint name="wheel_right_joint">
@@ -39,6 +38,6 @@
       </joint>
 
     </ros2_control>
-
+  </xacro:macro>
 
 </robot>
