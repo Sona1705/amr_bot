@@ -1,3 +1,0 @@
-[console_scripts]
-simple_controller = amr_controller.simple_controller:main
-

@@ -1,1 +1,0 @@
-/home/npd/Desktop/amr_bot/build/amr_cpp_examples/ament_cmake_core/amr_cpp_examplesConfig-version.cmake

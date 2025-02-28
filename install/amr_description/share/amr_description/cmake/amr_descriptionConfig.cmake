@@ -1,1 +1,0 @@
-/home/npd/Desktop/amr_bot/build/amr_description/ament_cmake_core/amr_descriptionConfig.cmake
