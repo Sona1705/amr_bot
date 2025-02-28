@@ -1,34 +1,23 @@
 <?xml version="1.0"?>
+
 <robot xmlns:xacro="http://ros.org/wiki/xacro" name="amr_robot">
 
-  <!-- Define the missing macro properly -->
-  <xacro:macro name="amr_ros2_control" params="is_sim is_ignition">
-    <ros2_control name="amr_robot_controller" type="system">
+ 
+  <ros2_control name="RobotSystem" type="system">
 
-      <!-- ros2_control Gazebo -->
-      <xacro:if value="${is_sim}">
-        <!-- ROS 2 Humble -->
-        <xacro:if value="${is_ignition}">
+     
+       <xacro:if value="$(arg is_ignition)">
           <hardware>
             <plugin>ign_ros2_control/IgnitionSystem</plugin>
           </hardware>
         </xacro:if>
 
-        <!-- ROS 2 Iron or above -->
-        <xacro:unless value="${is_ignition}">
+        <xacro:unless value="$(arg is_ignition)">
           <hardware>
             <plugin>gz_ros2_control/GazeboSimSystem</plugin>
           </hardware>
         </xacro:unless>
-      </xacro:if>
 
-      <!-- ros2_control Real Robot -->
-      <xacro:unless value="${is_sim}">
-        <hardware>
-          <plugin>amr_bot_firmware/amr_botInterface</plugin>
-          <param name="port">/dev/ttyUSB0</param>
-        </hardware>
-      </xacro:unless>
 
       <!-- ros2_control Common Interfaces -->
       <joint name="wheel_right_joint">
@@ -50,6 +39,6 @@
       </joint>
 
     </ros2_control>
-  </xacro:macro>
+
 
 </robot>
