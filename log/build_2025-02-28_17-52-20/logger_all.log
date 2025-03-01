@@ -1,0 +1,320 @@
+[0.320s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.320s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7548d1b23f10>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7548d1b23370>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7548d1b23370>>)
+[0.948s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.948s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.948s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.949s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.949s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.949s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.949s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/npd/Desktop/amr_bot'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_controller) by extension 'ignore'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_controller) by extension 'ignore_ament_install'
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_controller) by extensions ['colcon_pkg']
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_controller) by extension 'colcon_pkg'
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_controller) by extensions ['colcon_meta']
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_controller) by extension 'colcon_meta'
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_controller) by extensions ['ros']
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_controller) by extension 'ros'
+[0.985s] DEBUG:colcon.colcon_core.package_identification:Package 'src/amr_controller' with type 'ros.ament_python' and name 'amr_controller'
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_cpp_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_cpp_examples) by extension 'ignore'
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_cpp_examples) by extension 'ignore_ament_install'
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_cpp_examples) by extensions ['colcon_pkg']
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_cpp_examples) by extension 'colcon_pkg'
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_cpp_examples) by extensions ['colcon_meta']
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_cpp_examples) by extension 'colcon_meta'
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_cpp_examples) by extensions ['ros']
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_cpp_examples) by extension 'ros'
+[0.987s] DEBUG:colcon.colcon_core.package_identification:Package 'src/amr_cpp_examples' with type 'ros.ament_cmake' and name 'amr_cpp_examples'
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_description) by extensions ['ignore', 'ignore_ament_install']
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_description) by extension 'ignore'
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_description) by extension 'ignore_ament_install'
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_description) by extensions ['colcon_pkg']
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_description) by extension 'colcon_pkg'
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_description) by extensions ['colcon_meta']
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_description) by extension 'colcon_meta'
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_description) by extensions ['ros']
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_description) by extension 'ros'
+[0.993s] DEBUG:colcon.colcon_core.package_identification:Package 'src/amr_description' with type 'ros.ament_cmake' and name 'amr_description'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_py_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_py_examples) by extension 'ignore'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_py_examples) by extension 'ignore_ament_install'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_py_examples) by extensions ['colcon_pkg']
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_py_examples) by extension 'colcon_pkg'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_py_examples) by extensions ['colcon_meta']
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_py_examples) by extension 'colcon_meta'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_py_examples) by extensions ['ros']
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_py_examples) by extension 'ros'
+[0.996s] DEBUG:colcon.colcon_core.package_identification:Package 'src/amr_py_examples' with type 'ros.ament_python' and name 'amr_py_examples'
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.998s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.998s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.998s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.998s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.998s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.072s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.072s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.076s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/npd/Desktop/amr_bot/install/amr_py_examples' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.076s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/npd/Desktop/amr_bot/install/amr_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.076s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/npd/Desktop/amr_bot/install/amr_cpp_examples' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.076s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/npd/Desktop/amr_bot/install/amr_controller' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.077s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/npd/Desktop/amr_bot/install/amr_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.077s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/npd/Desktop/amr_bot/install/amr_cpp_examples' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.079s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/npd/Desktop/amr_bot/install
+[1.082s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 364 installed packages in /opt/ros/humble
+[1.085s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.197s] Level 5:colcon.colcon_core.verb:set package 'amr_controller' build argument 'cmake_args' from command line to 'None'
+[1.197s] Level 5:colcon.colcon_core.verb:set package 'amr_controller' build argument 'cmake_target' from command line to 'None'
+[1.197s] Level 5:colcon.colcon_core.verb:set package 'amr_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.198s] Level 5:colcon.colcon_core.verb:set package 'amr_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[1.198s] Level 5:colcon.colcon_core.verb:set package 'amr_controller' build argument 'cmake_clean_first' from command line to 'False'
+[1.199s] Level 5:colcon.colcon_core.verb:set package 'amr_controller' build argument 'cmake_force_configure' from command line to 'False'
+[1.199s] Level 5:colcon.colcon_core.verb:set package 'amr_controller' build argument 'ament_cmake_args' from command line to 'None'
+[1.199s] Level 5:colcon.colcon_core.verb:set package 'amr_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[1.200s] Level 5:colcon.colcon_core.verb:set package 'amr_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.200s] DEBUG:colcon.colcon_core.verb:Building package 'amr_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/npd/Desktop/amr_bot/build/amr_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/npd/Desktop/amr_bot/install/amr_controller', 'merge_install': False, 'path': '/home/npd/Desktop/amr_bot/src/amr_controller', 'symlink_install': False, 'test_result_base': None}
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'amr_cpp_examples' build argument 'cmake_args' from command line to 'None'
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'amr_cpp_examples' build argument 'cmake_target' from command line to 'None'
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'amr_cpp_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'amr_cpp_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'amr_cpp_examples' build argument 'cmake_clean_first' from command line to 'False'
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'amr_cpp_examples' build argument 'cmake_force_configure' from command line to 'False'
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'amr_cpp_examples' build argument 'ament_cmake_args' from command line to 'None'
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'amr_cpp_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'amr_cpp_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.201s] DEBUG:colcon.colcon_core.verb:Building package 'amr_cpp_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/npd/Desktop/amr_bot/build/amr_cpp_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/npd/Desktop/amr_bot/install/amr_cpp_examples', 'merge_install': False, 'path': '/home/npd/Desktop/amr_bot/src/amr_cpp_examples', 'symlink_install': False, 'test_result_base': None}
+[1.203s] Level 5:colcon.colcon_core.verb:set package 'amr_description' build argument 'cmake_args' from command line to 'None'
+[1.203s] Level 5:colcon.colcon_core.verb:set package 'amr_description' build argument 'cmake_target' from command line to 'None'
+[1.203s] Level 5:colcon.colcon_core.verb:set package 'amr_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.203s] Level 5:colcon.colcon_core.verb:set package 'amr_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.203s] Level 5:colcon.colcon_core.verb:set package 'amr_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.203s] Level 5:colcon.colcon_core.verb:set package 'amr_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.203s] Level 5:colcon.colcon_core.verb:set package 'amr_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.203s] Level 5:colcon.colcon_core.verb:set package 'amr_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.203s] Level 5:colcon.colcon_core.verb:set package 'amr_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.204s] DEBUG:colcon.colcon_core.verb:Building package 'amr_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/npd/Desktop/amr_bot/build/amr_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/npd/Desktop/amr_bot/install/amr_description', 'merge_install': False, 'path': '/home/npd/Desktop/amr_bot/src/amr_description', 'symlink_install': False, 'test_result_base': None}
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'amr_py_examples' build argument 'cmake_args' from command line to 'None'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'amr_py_examples' build argument 'cmake_target' from command line to 'None'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'amr_py_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'amr_py_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'amr_py_examples' build argument 'cmake_clean_first' from command line to 'False'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'amr_py_examples' build argument 'cmake_force_configure' from command line to 'False'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'amr_py_examples' build argument 'ament_cmake_args' from command line to 'None'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'amr_py_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'amr_py_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.205s] DEBUG:colcon.colcon_core.verb:Building package 'amr_py_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/npd/Desktop/amr_bot/build/amr_py_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/npd/Desktop/amr_bot/install/amr_py_examples', 'merge_install': False, 'path': '/home/npd/Desktop/amr_bot/src/amr_py_examples', 'symlink_install': False, 'test_result_base': None}
+[1.206s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.208s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.209s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/npd/Desktop/amr_bot/src/amr_controller' with build type 'ament_python'
+[1.209s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_controller', 'ament_prefix_path')
+[1.217s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/hook/ament_prefix_path.ps1'
+[1.220s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/hook/ament_prefix_path.dsv'
+[1.221s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/hook/ament_prefix_path.sh'
+[1.223s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.223s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.232s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/npd/Desktop/amr_bot/src/amr_cpp_examples' with build type 'ament_cmake'
+[1.232s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/npd/Desktop/amr_bot/src/amr_cpp_examples'
+[1.233s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.233s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.244s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/npd/Desktop/amr_bot/src/amr_description' with build type 'ament_cmake'
+[1.244s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/npd/Desktop/amr_bot/src/amr_description'
+[1.245s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.245s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.254s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/npd/Desktop/amr_bot/src/amr_py_examples' with build type 'ament_python'
+[1.255s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_py_examples', 'ament_prefix_path')
+[1.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/npd/Desktop/amr_bot/install/amr_py_examples/share/amr_py_examples/hook/ament_prefix_path.ps1'
+[1.257s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/npd/Desktop/amr_bot/install/amr_py_examples/share/amr_py_examples/hook/ament_prefix_path.dsv'
+[1.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/npd/Desktop/amr_bot/install/amr_py_examples/share/amr_py_examples/hook/ament_prefix_path.sh'
+[1.259s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.259s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.884s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/npd/Desktop/amr_bot/src/amr_controller'
+[1.885s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.885s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.901s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/npd/Desktop/amr_bot/build/amr_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_py_examples:/home/npd/Desktop/amr_bot/install/amr_controller:/opt/ros/humble /usr/bin/cmake /home/npd/Desktop/amr_bot/src/amr_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/npd/Desktop/amr_bot/install/amr_cpp_examples
+[1.908s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/npd/Desktop/amr_bot/build/amr_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_py_examples:/home/npd/Desktop/amr_bot/install/amr_controller:/opt/ros/humble /usr/bin/cmake /home/npd/Desktop/amr_bot/src/amr_description -DCMAKE_INSTALL_PREFIX=/home/npd/Desktop/amr_bot/install/amr_description
+[2.802s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/npd/Desktop/amr_bot/src/amr_py_examples'
+[2.803s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.803s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.675s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/npd/Desktop/amr_bot/build/amr_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_py_examples:/home/npd/Desktop/amr_bot/install/amr_controller:/opt/ros/humble /usr/bin/cmake /home/npd/Desktop/amr_bot/src/amr_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/npd/Desktop/amr_bot/install/amr_cpp_examples
+[4.680s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/npd/Desktop/amr_bot/build/amr_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_py_examples:/home/npd/Desktop/amr_bot/install/amr_controller:/opt/ros/humble /usr/bin/cmake --build /home/npd/Desktop/amr_bot/build/amr_cpp_examples -- -j4 -l4
+[4.855s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/npd/Desktop/amr_bot/build/amr_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_py_examples:/home/npd/Desktop/amr_bot/install/amr_controller:/opt/ros/humble /usr/bin/cmake --build /home/npd/Desktop/amr_bot/build/amr_cpp_examples -- -j4 -l4
+[4.891s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/npd/Desktop/amr_bot/build/amr_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_py_examples:/home/npd/Desktop/amr_bot/install/amr_controller:/opt/ros/humble /usr/bin/cmake --install /home/npd/Desktop/amr_bot/build/amr_cpp_examples
+[4.924s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(amr_cpp_examples)
+[4.926s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/npd/Desktop/amr_bot/build/amr_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_py_examples:/home/npd/Desktop/amr_bot/install/amr_controller:/opt/ros/humble /usr/bin/cmake --install /home/npd/Desktop/amr_bot/build/amr_cpp_examples
+[4.944s] Level 1:colcon.colcon_core.environment:checking '/home/npd/Desktop/amr_bot/install/amr_cpp_examples' for CMake module files
+[4.946s] Level 1:colcon.colcon_core.environment:checking '/home/npd/Desktop/amr_bot/install/amr_cpp_examples' for CMake config files
+[4.946s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_cpp_examples', 'cmake_prefix_path')
+[4.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/amr_cpp_examples/hook/cmake_prefix_path.ps1'
+[4.951s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/amr_cpp_examples/hook/cmake_prefix_path.dsv'
+[4.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/amr_cpp_examples/hook/cmake_prefix_path.sh'
+[4.955s] Level 1:colcon.colcon_core.environment:checking '/home/npd/Desktop/amr_bot/install/amr_cpp_examples/bin'
+[4.955s] Level 1:colcon.colcon_core.environment:checking '/home/npd/Desktop/amr_bot/install/amr_cpp_examples/lib/pkgconfig/amr_cpp_examples.pc'
+[4.956s] Level 1:colcon.colcon_core.environment:checking '/home/npd/Desktop/amr_bot/install/amr_cpp_examples/lib/python3.10/site-packages'
+[4.957s] Level 1:colcon.colcon_core.environment:checking '/home/npd/Desktop/amr_bot/install/amr_cpp_examples/bin'
+[4.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/amr_cpp_examples/package.ps1'
+[4.961s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/amr_cpp_examples/package.dsv'
+[4.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/amr_cpp_examples/package.sh'
+[4.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/amr_cpp_examples/package.bash'
+[4.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/amr_cpp_examples/package.zsh'
+[4.981s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/colcon-core/packages/amr_cpp_examples)
+[4.989s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(amr_cpp_examples)
+[4.990s] Level 1:colcon.colcon_core.environment:checking '/home/npd/Desktop/amr_bot/install/amr_cpp_examples' for CMake module files
+[4.992s] Level 1:colcon.colcon_core.environment:checking '/home/npd/Desktop/amr_bot/install/amr_cpp_examples' for CMake config files
+[4.996s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_cpp_examples', 'cmake_prefix_path')
+[4.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/amr_cpp_examples/hook/cmake_prefix_path.ps1'
+[5.002s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/amr_cpp_examples/hook/cmake_prefix_path.dsv'
+[5.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/amr_cpp_examples/hook/cmake_prefix_path.sh'
+[5.011s] Level 1:colcon.colcon_core.environment:checking '/home/npd/Desktop/amr_bot/install/amr_cpp_examples/bin'
+[5.011s] Level 1:colcon.colcon_core.environment:checking '/home/npd/Desktop/amr_bot/install/amr_cpp_examples/lib/pkgconfig/amr_cpp_examples.pc'
+[5.015s] Level 1:colcon.colcon_core.environment:checking '/home/npd/Desktop/amr_bot/install/amr_cpp_examples/lib/python3.10/site-packages'
+[5.016s] Level 1:colcon.colcon_core.environment:checking '/home/npd/Desktop/amr_bot/install/amr_cpp_examples/bin'
+[5.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/amr_cpp_examples/package.ps1'
+[5.027s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/amr_cpp_examples/package.dsv'
+[5.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/amr_cpp_examples/package.sh'
+[5.040s] INFO:colcon.colcon_core.shell:Creating package script '/home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/amr_cpp_examples/package.bash'
+[5.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/amr_cpp_examples/package.zsh'
+[5.043s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/colcon-core/packages/amr_cpp_examples)
+[5.080s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/npd/Desktop/amr_bot/src/amr_controller': PYTHONPATH=/home/npd/Desktop/amr_bot/build/amr_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/npd/Desktop/amr_bot/install/amr_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/amr_controller build --build-base /home/npd/Desktop/amr_bot/build/amr_controller/build install --record /home/npd/Desktop/amr_bot/build/amr_controller/install.log --single-version-externally-managed install_data
+[5.124s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/npd/Desktop/amr_bot/src/amr_py_examples': PYTHONPATH=/home/npd/Desktop/amr_bot/build/amr_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/npd/Desktop/amr_bot/install/amr_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/amr_py_examples build --build-base /home/npd/Desktop/amr_bot/build/amr_py_examples/build install --record /home/npd/Desktop/amr_bot/build/amr_py_examples/install.log --single-version-externally-managed install_data
+[6.280s] Level 1:colcon.colcon_core.environment:checking '/home/npd/Desktop/amr_bot/install/amr_py_examples' for CMake module files
+[6.282s] Level 1:colcon.colcon_core.environment:checking '/home/npd/Desktop/amr_bot/install/amr_py_examples' for CMake config files
+[6.283s] Level 1:colcon.colcon_core.environment:checking '/home/npd/Desktop/amr_bot/install/amr_py_examples/lib'
+[6.285s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/npd/Desktop/amr_bot/src/amr_py_examples' returned '0': PYTHONPATH=/home/npd/Desktop/amr_bot/build/amr_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/npd/Desktop/amr_bot/install/amr_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/amr_py_examples build --build-base /home/npd/Desktop/amr_bot/build/amr_py_examples/build install --record /home/npd/Desktop/amr_bot/build/amr_py_examples/install.log --single-version-externally-managed install_data
+[6.285s] Level 1:colcon.colcon_core.environment:checking '/home/npd/Desktop/amr_bot/install/amr_py_examples/bin'
+[6.286s] Level 1:colcon.colcon_core.environment:checking '/home/npd/Desktop/amr_bot/install/amr_py_examples/lib/pkgconfig/amr_py_examples.pc'
+[6.286s] Level 1:colcon.colcon_core.environment:checking '/home/npd/Desktop/amr_bot/install/amr_py_examples/lib/python3.10/site-packages'
+[6.287s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_py_examples', 'pythonpath')
+[6.288s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/npd/Desktop/amr_bot/install/amr_py_examples/share/amr_py_examples/hook/pythonpath.ps1'
+[6.290s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/npd/Desktop/amr_bot/install/amr_py_examples/share/amr_py_examples/hook/pythonpath.dsv'
+[6.291s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/npd/Desktop/amr_bot/install/amr_py_examples/share/amr_py_examples/hook/pythonpath.sh'
+[6.293s] Level 1:colcon.colcon_core.environment:checking '/home/npd/Desktop/amr_bot/install/amr_py_examples/bin'
+[6.293s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(amr_py_examples)
+[6.294s] INFO:colcon.colcon_core.shell:Creating package script '/home/npd/Desktop/amr_bot/install/amr_py_examples/share/amr_py_examples/package.ps1'
+[6.295s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/npd/Desktop/amr_bot/install/amr_py_examples/share/amr_py_examples/package.dsv'
+[6.297s] INFO:colcon.colcon_core.shell:Creating package script '/home/npd/Desktop/amr_bot/install/amr_py_examples/share/amr_py_examples/package.sh'
+[6.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/npd/Desktop/amr_bot/install/amr_py_examples/share/amr_py_examples/package.bash'
+[6.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/npd/Desktop/amr_bot/install/amr_py_examples/share/amr_py_examples/package.zsh'
+[6.301s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/npd/Desktop/amr_bot/install/amr_py_examples/share/colcon-core/packages/amr_py_examples)
+[6.306s] Level 1:colcon.colcon_core.environment:checking '/home/npd/Desktop/amr_bot/install/amr_controller' for CMake module files
+[6.308s] Level 1:colcon.colcon_core.environment:checking '/home/npd/Desktop/amr_bot/install/amr_controller' for CMake config files
+[6.311s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/npd/Desktop/amr_bot/src/amr_controller' returned '0': PYTHONPATH=/home/npd/Desktop/amr_bot/build/amr_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/npd/Desktop/amr_bot/install/amr_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/amr_controller build --build-base /home/npd/Desktop/amr_bot/build/amr_controller/build install --record /home/npd/Desktop/amr_bot/build/amr_controller/install.log --single-version-externally-managed install_data
+[6.311s] Level 1:colcon.colcon_core.environment:checking '/home/npd/Desktop/amr_bot/install/amr_controller/lib'
+[6.311s] Level 1:colcon.colcon_core.environment:checking '/home/npd/Desktop/amr_bot/install/amr_controller/bin'
+[6.311s] Level 1:colcon.colcon_core.environment:checking '/home/npd/Desktop/amr_bot/install/amr_controller/lib/pkgconfig/amr_controller.pc'
+[6.312s] Level 1:colcon.colcon_core.environment:checking '/home/npd/Desktop/amr_bot/install/amr_controller/lib/python3.10/site-packages'
+[6.312s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_controller', 'pythonpath')
+[6.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/hook/pythonpath.ps1'
+[6.314s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/hook/pythonpath.dsv'
+[6.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/hook/pythonpath.sh'
+[6.316s] Level 1:colcon.colcon_core.environment:checking '/home/npd/Desktop/amr_bot/install/amr_controller/bin'
+[6.317s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(amr_controller)
+[6.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/package.ps1'
+[6.320s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/package.dsv'
+[6.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/package.sh'
+[6.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/package.bash'
+[6.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/package.zsh'
+[6.325s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/npd/Desktop/amr_bot/install/amr_controller/share/colcon-core/packages/amr_controller)
+[9.580s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/npd/Desktop/amr_bot/build/amr_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_py_examples:/home/npd/Desktop/amr_bot/install/amr_controller:/opt/ros/humble /usr/bin/cmake /home/npd/Desktop/amr_bot/src/amr_description -DCMAKE_INSTALL_PREFIX=/home/npd/Desktop/amr_bot/install/amr_description
+[9.583s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/npd/Desktop/amr_bot/build/amr_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_py_examples:/home/npd/Desktop/amr_bot/install/amr_controller:/opt/ros/humble /usr/bin/cmake --build /home/npd/Desktop/amr_bot/build/amr_description -- -j4 -l4
+[9.682s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/npd/Desktop/amr_bot/build/amr_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_py_examples:/home/npd/Desktop/amr_bot/install/amr_controller:/opt/ros/humble /usr/bin/cmake --build /home/npd/Desktop/amr_bot/build/amr_description -- -j4 -l4
+[9.686s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/npd/Desktop/amr_bot/build/amr_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_py_examples:/home/npd/Desktop/amr_bot/install/amr_controller:/opt/ros/humble /usr/bin/cmake --install /home/npd/Desktop/amr_bot/build/amr_description
+[9.715s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(amr_description)
+[9.716s] Level 1:colcon.colcon_core.environment:checking '/home/npd/Desktop/amr_bot/install/amr_description' for CMake module files
+[9.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/npd/Desktop/amr_bot/build/amr_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_py_examples:/home/npd/Desktop/amr_bot/install/amr_controller:/opt/ros/humble /usr/bin/cmake --install /home/npd/Desktop/amr_bot/build/amr_description
+[9.718s] Level 1:colcon.colcon_core.environment:checking '/home/npd/Desktop/amr_bot/install/amr_description' for CMake config files
+[9.719s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_description', 'cmake_prefix_path')
+[9.719s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/hook/cmake_prefix_path.ps1'
+[9.721s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/hook/cmake_prefix_path.dsv'
+[9.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/hook/cmake_prefix_path.sh'
+[9.723s] Level 1:colcon.colcon_core.environment:checking '/home/npd/Desktop/amr_bot/install/amr_description/bin'
+[9.723s] Level 1:colcon.colcon_core.environment:checking '/home/npd/Desktop/amr_bot/install/amr_description/lib/pkgconfig/amr_description.pc'
+[9.723s] Level 1:colcon.colcon_core.environment:checking '/home/npd/Desktop/amr_bot/install/amr_description/lib/python3.10/site-packages'
+[9.724s] Level 1:colcon.colcon_core.environment:checking '/home/npd/Desktop/amr_bot/install/amr_description/bin'
+[9.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/package.ps1'
+[9.725s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/package.dsv'
+[9.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/package.sh'
+[9.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/package.bash'
+[9.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/package.zsh'
+[9.728s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/npd/Desktop/amr_bot/install/amr_description/share/colcon-core/packages/amr_description)
+[9.729s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(amr_description)
+[9.729s] Level 1:colcon.colcon_core.environment:checking '/home/npd/Desktop/amr_bot/install/amr_description' for CMake module files
+[9.730s] Level 1:colcon.colcon_core.environment:checking '/home/npd/Desktop/amr_bot/install/amr_description' for CMake config files
+[9.730s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_description', 'cmake_prefix_path')
+[9.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/hook/cmake_prefix_path.ps1'
+[9.732s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/hook/cmake_prefix_path.dsv'
+[9.732s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/hook/cmake_prefix_path.sh'
+[9.733s] Level 1:colcon.colcon_core.environment:checking '/home/npd/Desktop/amr_bot/install/amr_description/bin'
+[9.733s] Level 1:colcon.colcon_core.environment:checking '/home/npd/Desktop/amr_bot/install/amr_description/lib/pkgconfig/amr_description.pc'
+[9.734s] Level 1:colcon.colcon_core.environment:checking '/home/npd/Desktop/amr_bot/install/amr_description/lib/python3.10/site-packages'
+[9.734s] Level 1:colcon.colcon_core.environment:checking '/home/npd/Desktop/amr_bot/install/amr_description/bin'
+[9.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/package.ps1'
+[9.736s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/package.dsv'
+[9.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/package.sh'
+[9.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/package.bash'
+[9.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/package.zsh'
+[9.741s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/npd/Desktop/amr_bot/install/amr_description/share/colcon-core/packages/amr_description)
+[9.741s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.742s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.742s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.742s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.755s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.755s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.755s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.779s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.779s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/npd/Desktop/amr_bot/install/local_setup.ps1'
+[9.782s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/npd/Desktop/amr_bot/install/_local_setup_util_ps1.py'
+[9.787s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/npd/Desktop/amr_bot/install/setup.ps1'
+[9.791s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/npd/Desktop/amr_bot/install/local_setup.sh'
+[9.793s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/npd/Desktop/amr_bot/install/_local_setup_util_sh.py'
+[9.794s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/npd/Desktop/amr_bot/install/setup.sh'
+[9.797s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/npd/Desktop/amr_bot/install/local_setup.bash'
+[9.799s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/npd/Desktop/amr_bot/install/setup.bash'
+[9.801s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/npd/Desktop/amr_bot/install/local_setup.zsh'
+[9.803s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/npd/Desktop/amr_bot/install/setup.zsh'

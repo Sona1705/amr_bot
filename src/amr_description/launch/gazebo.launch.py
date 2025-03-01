@@ -3,7 +3,7 @@ from pathlib import Path
 from ament_index_python.packages import get_package_share_directory
 
 from launch import LaunchDescription
-from launch.actions import DeclareLaunchArgument,SetEnvironmentVariable, IncludeLaunchDescription
+from launch.actions import DeclareLaunchArgument, SetEnvironmentVariable, IncludeLaunchDescription
 from launch.substitutions import Command, LaunchConfiguration
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 
@@ -14,32 +14,35 @@ from launch_ros.parameter_descriptions import ParameterValue
 def generate_launch_description():
     amr_description_dir = get_package_share_directory("amr_description")
     ros_distro = os.environ["ROS_DISTRO"]
-    is_ignition = "True" if ros_distro == "humble" else "False"
+    is_sim = "True" if ros_distro == "humble" else "False"
+    
     model_arg = DeclareLaunchArgument(
         name="model",
         default_value=os.path.join(amr_description_dir, "urdf", "amr.urdf.xacro"),
-        description="Absolute path to robot urdf file"
+        description="Absolute path to robot URDF file"
     )
 
-    robot_description = ParameterValue(Command([
-        "xacro ", 
-        LaunchConfiguration("model"),
-        " is_ignition:=",
-        is_ignition
-        ]), 
-        value_type=str)
+    robot_description = ParameterValue(
+        Command([
+            "xacro ",
+            LaunchConfiguration("model"),
+            " is_sim:=",
+            is_sim
+        ]),
+        value_type=str
+    )
 
     robot_state_publisher_node = Node(
         package="robot_state_publisher",
         executable="robot_state_publisher",
         parameters=[{"robot_description": robot_description}]
     )
+
     gazebo_resource_path = SetEnvironmentVariable(
         name="GZ_SIM_RESOURCE_PATH",
-        value=[
-            str(Path(amr_description_dir).parent.resolve())
-        ]
+        value=str(Path(amr_description_dir).parent.resolve())
     )
+
     gazebo = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             os.path.join(
@@ -53,8 +56,7 @@ def generate_launch_description():
         package="ros_gz_sim",
         executable="create",
         output="screen",
-        arguments=["-topic","robot_description",
-                   "-name","amr_bot"]
+        arguments=["-topic", "robot_description", "-name", "amr_bot"]
     )
 
     return LaunchDescription([
@@ -64,7 +66,6 @@ def generate_launch_description():
         gazebo,
         gz_spawn_entity
     ])
-
 
 
 

@@ -1,0 +1,25 @@
+[1.838s] Invoking command in '/home/npd/Desktop/amr_bot/src/amr_controller': PYTHONPATH=/home/npd/Desktop/amr_bot/build/amr_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/npd/Desktop/amr_bot/install/amr_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/amr_controller build --build-base /home/npd/Desktop/amr_bot/build/amr_controller/build install --record /home/npd/Desktop/amr_bot/build/amr_controller/install.log --single-version-externally-managed install_data
+[2.303s] running egg_info
+[2.304s] writing ../../build/amr_controller/amr_controller.egg-info/PKG-INFO
+[2.308s] writing dependency_links to ../../build/amr_controller/amr_controller.egg-info/dependency_links.txt
+[2.308s] writing entry points to ../../build/amr_controller/amr_controller.egg-info/entry_points.txt
+[2.308s] writing requirements to ../../build/amr_controller/amr_controller.egg-info/requires.txt
+[2.309s] writing top-level names to ../../build/amr_controller/amr_controller.egg-info/top_level.txt
+[2.311s] reading manifest file '../../build/amr_controller/amr_controller.egg-info/SOURCES.txt'
+[2.313s] writing manifest file '../../build/amr_controller/amr_controller.egg-info/SOURCES.txt'
+[2.315s] running build
+[2.315s] running build_py
+[2.315s] running install
+[2.316s] running install_lib
+[2.320s] running install_data
+[2.320s] copying launch/teleop_joystick.launch.py -> /home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/launch
+[2.320s] copying launch/controller_launch.py -> /home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/launch
+[2.321s] copying config/joy_config.yaml -> /home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/config
+[2.321s] copying package.xml -> /home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller
+[2.321s] running install_egg_info
+[2.325s] removing '/home/npd/Desktop/amr_bot/install/amr_controller/lib/python3.10/site-packages/amr_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[2.326s] Copying ../../build/amr_controller/amr_controller.egg-info to /home/npd/Desktop/amr_bot/install/amr_controller/lib/python3.10/site-packages/amr_controller-0.0.0-py3.10.egg-info
+[2.328s] running install_scripts
+[2.376s] Installing simple_controller script to /home/npd/Desktop/amr_bot/install/amr_controller/lib/amr_controller
+[2.377s] writing list of installed files to '/home/npd/Desktop/amr_bot/build/amr_controller/install.log'
+[2.422s] Invoked command in '/home/npd/Desktop/amr_bot/src/amr_controller' returned '0': PYTHONPATH=/home/npd/Desktop/amr_bot/build/amr_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/npd/Desktop/amr_bot/install/amr_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/amr_controller build --build-base /home/npd/Desktop/amr_bot/build/amr_controller/build install --record /home/npd/Desktop/amr_bot/build/amr_controller/install.log --single-version-externally-managed install_data

@@ -1,0 +1,23 @@
+[2.089s] Invoking command in '/home/npd/Desktop/amr_bot/src/amr_py_examples': PYTHONPATH=/home/npd/Desktop/amr_bot/build/amr_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/npd/Desktop/amr_bot/install/amr_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/amr_py_examples build --build-base /home/npd/Desktop/amr_bot/build/amr_py_examples/build install --record /home/npd/Desktop/amr_bot/build/amr_py_examples/install.log --single-version-externally-managed install_data
+[2.546s] running egg_info
+[2.548s] writing ../../build/amr_py_examples/amr_py_examples.egg-info/PKG-INFO
+[2.549s] writing dependency_links to ../../build/amr_py_examples/amr_py_examples.egg-info/dependency_links.txt
+[2.549s] writing entry points to ../../build/amr_py_examples/amr_py_examples.egg-info/entry_points.txt
+[2.550s] writing requirements to ../../build/amr_py_examples/amr_py_examples.egg-info/requires.txt
+[2.550s] writing top-level names to ../../build/amr_py_examples/amr_py_examples.egg-info/top_level.txt
+[2.554s] reading manifest file '../../build/amr_py_examples/amr_py_examples.egg-info/SOURCES.txt'
+[2.557s] writing manifest file '../../build/amr_py_examples/amr_py_examples.egg-info/SOURCES.txt'
+[2.557s] running build
+[2.557s] running build_py
+[2.560s] running install
+[2.561s] running install_lib
+[2.564s] running install_data
+[2.565s] running install_egg_info
+[2.570s] removing '/home/npd/Desktop/amr_bot/install/amr_py_examples/lib/python3.10/site-packages/amr_py_examples-0.0.1-py3.10.egg-info' (and everything under it)
+[2.570s] Copying ../../build/amr_py_examples/amr_py_examples.egg-info to /home/npd/Desktop/amr_bot/install/amr_py_examples/lib/python3.10/site-packages/amr_py_examples-0.0.1-py3.10.egg-info
+[2.573s] running install_scripts
+[2.628s] Installing simple_parameter script to /home/npd/Desktop/amr_bot/install/amr_py_examples/lib/amr_py_examples
+[2.629s] Installing simple_publisher script to /home/npd/Desktop/amr_bot/install/amr_py_examples/lib/amr_py_examples
+[2.629s] Installing simple_subscriber script to /home/npd/Desktop/amr_bot/install/amr_py_examples/lib/amr_py_examples
+[2.630s] writing list of installed files to '/home/npd/Desktop/amr_bot/build/amr_py_examples/install.log'
+[2.692s] Invoked command in '/home/npd/Desktop/amr_bot/src/amr_py_examples' returned '0': PYTHONPATH=/home/npd/Desktop/amr_bot/build/amr_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/npd/Desktop/amr_bot/install/amr_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/amr_py_examples build --build-base /home/npd/Desktop/amr_bot/build/amr_py_examples/build install --record /home/npd/Desktop/amr_bot/build/amr_py_examples/install.log --single-version-externally-managed install_data
