@@ -4,6 +4,7 @@ from launch.actions import DeclareLaunchArgument
 from launch.substitutions import LaunchConfiguration, Command
 from launch_ros.actions import Node
 from ament_index_python.packages import get_package_share_directory
+from launch_ros.parameter_descriptions import ParameterValue
 
 
 def generate_launch_description():
@@ -17,13 +18,13 @@ def generate_launch_description():
         description="Absolute path to robot xacro file"
     )
     
+    robot_description = ParameterValue(Command(["xacro", LaunchConfiguration("model")]), value_type=str)
+
     # Robot State Publisher node with proper xacro parsing
     robot_state_publisher_node = Node(
         package="robot_state_publisher",
         executable="robot_state_publisher",
-        parameters=[{
-            "robot_description": Command(["xacro ", LaunchConfiguration("model")])
-        }]
+        parameters=[{"robot_description": robot_description}]
     )
 
     # Joint State Publisher GUI
