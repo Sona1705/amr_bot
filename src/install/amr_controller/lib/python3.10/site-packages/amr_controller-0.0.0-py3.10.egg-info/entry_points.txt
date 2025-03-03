@@ -1,3 +1,0 @@
-[console_scripts]
-controller_node = amr_controller.controller_node:main
-
