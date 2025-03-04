@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 
-<robot name="bumperbot" xmlns:xacro="http://ros.org/wiki/xacro">
+<robot name="amr_bot" xmlns:xacro="http://ros.org/wiki/xacro">
 
   <!-- Start GZ or Ignition depending on ROS 2 Version -->
   <xacro:arg name="is_ignition" default="true"/>
@@ -14,6 +14,9 @@
 
   <!-- Include ros2_control Plugins -->
   <xacro:include filename="$(find amr_description)/urdf/amr_ros2_control.xacro" />
+
+  <!-- Call the ros2_control macro -->
+  <xacro:amr_ros2_control is_sim="$( arg is_sim)" is_ignition="$(arg is_ignition)"/>
 
   <link name="base_footprint"/>
 

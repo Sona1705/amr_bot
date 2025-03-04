@@ -1,5 +1,4 @@
 <?xml version="1.0"?>
-
 <robot name="amr_robot" xmlns:xacro="http://ros.org/wiki/xacro">
 
   <!-- Middle Drive Wheels -->
@@ -62,14 +61,16 @@
 
   <!-- ROS 2 Control -->
   <gazebo>
+    <!-- Ignition plugin for ROS2 Control -->
     <xacro:if value="$(arg is_ignition)">
-      <plugin filename="ign_ros2_control-system" name="ign_ros2_control::IgnitionROS2ControlPlugin">
+        <plugin filename="libign_ros2_control-system.so" name="ign_ros2_control::IgnitionROS2ControlPlugin">
         <parameters>$(find amr_controller)/config/amr_controllers.yaml</parameters>
       </plugin>
     </xacro:if>
 
+    <!-- Gazebo plugin for ROS2 Control -->
     <xacro:unless value="$(arg is_ignition)">
-      <plugin filename="gz_ros2_control-system" name="gz_ros2_control::GazeboSimROS2ControlPlugin">
+        <plugin filename="libgz_ros2_control-system.so" name="gz_ros2_control::GazeboSimROS2ControlPlugin">
         <parameters>$(find amr_controller)/config/amr_controllers.yaml</parameters>
       </plugin>
     </xacro:unless>

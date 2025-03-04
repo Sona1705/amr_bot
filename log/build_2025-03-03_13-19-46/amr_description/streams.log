@@ -1,0 +1,98 @@
+[0.065s] Invoking command in '/home/npd/Desktop/amr_bot/build/amr_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/npd/Desktop/amr_bot/build/amr_description -- -j4 -l4
+[0.147s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.434s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.520s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.530s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.549s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.580s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.628s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.775s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.784s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.037s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.234s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.305s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.313s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.330s] -- Searching for dependencies of ignition-math6
+[1.334s] -- Looking for OGRE...
+[1.345s] -- Found Ogre Ghadamon (1.9.0)
+[1.346s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.364s] -- Looking for OGRE_Paging...
+[1.365s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.365s] -- Looking for OGRE_Terrain...
+[1.365s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.365s] -- Looking for OGRE_Property...
+[1.366s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.366s] -- Looking for OGRE_RTShaderSystem...
+[1.367s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.369s] -- Looking for OGRE_Volume...
+[1.369s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.369s] -- Looking for OGRE_Overlay...
+[1.370s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.631s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.633s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.634s] -- Searching for dependencies of ignition-transport8
+[1.669s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.691s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.701s] -- Checking for module 'libzmq >= 4'
+[1.734s] --   Found libzmq , version 4.3.4
+[1.821s] -- Checking for module 'uuid'
+[1.849s] --   Found uuid, version 2.37.2
+[1.925s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.927s] -- Searching for dependencies of ignition-msgs5
+[1.963s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.974s] -- Checking for module 'tinyxml2'
+[2.004s] --   Found tinyxml2, version 9.0.0
+[2.081s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.082s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.084s] -- Searching for dependencies of ignition-common3
+[2.084s] -- Looking for dlfcn.h - found
+[2.084s] -- Looking for libdl - found
+[2.109s] -- Searching for <ignition-common3> component [graphics]
+[2.111s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.112s] -- Searching for dependencies of ignition-common3-graphics
+[2.113s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.117s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.118s] -- Searching for dependencies of ignition-fuel_tools4
+[2.197s] -- Checking for module 'jsoncpp'
+[2.225s] --   Found jsoncpp, version 1.9.5
+[2.306s] -- Checking for module 'libzip'
+[2.333s] --   Found libzip, version 1.7.3
+[2.399s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.400s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.401s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.406s] -- Gazebo version: 11.10
+[2.409s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[2.540s] -- Configuring done
+[2.552s] -- Generating done
+[2.558s] -- Build files have been written to: /home/npd/Desktop/amr_bot/build/amr_description
+[2.612s] Invoked command in '/home/npd/Desktop/amr_bot/build/amr_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/npd/Desktop/amr_bot/build/amr_description -- -j4 -l4
+[2.617s] Invoking command in '/home/npd/Desktop/amr_bot/build/amr_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/npd/Desktop/amr_bot/build/amr_description
+[2.631s] -- Install configuration: ""
+[2.631s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description//urdf
+[2.631s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description//urdf/amr_gazebo.xacro
+[2.632s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description//urdf/amr_ros2_control.xacro
+[2.632s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description//urdf/amr.urdf.xacro
+[2.632s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description//launch
+[2.632s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description//launch/display_fixed.launch.py
+[2.632s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description//launch/gazebo.launch.py
+[2.633s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description//rviz
+[2.633s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description//rviz/amr.rviz
+[2.633s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description//launch
+[2.633s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description//launch/display_fixed.launch.py
+[2.634s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description//launch/gazebo.launch.py
+[2.634s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_description/share/ament_index/resource_index/package_run_dependencies/amr_description
+[2.634s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_description/share/ament_index/resource_index/parent_prefix_path/amr_description
+[2.634s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/environment/ament_prefix_path.sh
+[2.635s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/environment/ament_prefix_path.dsv
+[2.635s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/environment/path.sh
+[2.635s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/environment/path.dsv
+[2.635s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/local_setup.bash
+[2.636s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/local_setup.sh
+[2.636s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/local_setup.zsh
+[2.636s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/local_setup.dsv
+[2.636s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/package.dsv
+[2.636s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_description/share/ament_index/resource_index/packages/amr_description
+[2.637s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/cmake/amr_descriptionConfig.cmake
+[2.637s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/cmake/amr_descriptionConfig-version.cmake
+[2.637s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/package.xml
+[2.641s] Invoked command in '/home/npd/Desktop/amr_bot/build/amr_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/npd/Desktop/amr_bot/build/amr_description
