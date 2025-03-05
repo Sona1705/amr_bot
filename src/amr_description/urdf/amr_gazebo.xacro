@@ -58,7 +58,6 @@
     <minDepth>0.001</minDepth>
     <maxVel>1.0</maxVel>
   </gazebo>
-
   <!-- ROS 2 Control -->
   <gazebo>
     <!-- Ignition plugin for ROS2 Control -->
@@ -77,3 +76,4 @@
   </gazebo>
 
 </robot>
+  

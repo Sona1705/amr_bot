@@ -1,0 +1,48 @@
+[0.056s] Invoking command in '/home/npd/Desktop/amr_bot/build/amr_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake /home/npd/Desktop/amr_bot/src/amr_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/npd/Desktop/amr_bot/install/amr_controller
+[0.253s] -- The C compiler identification is GNU 11.4.0
+[0.641s] -- The CXX compiler identification is GNU 11.4.0
+[0.670s] -- Detecting C compiler ABI info
+[0.963s] -- Detecting C compiler ABI info - done
+[1.042s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.043s] -- Detecting C compile features
+[1.044s] -- Detecting C compile features - done
+[1.057s] -- Detecting CXX compiler ABI info
+[1.444s] -- Detecting CXX compiler ABI info - done
+[1.489s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.490s] -- Detecting CXX compile features
+[1.492s] -- Detecting CXX compile features - done
+[1.501s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.131s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.398s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.526s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.884s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.889s] -- Added test 'lint_cmake' to check CMake code style
+[2.889s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.892s] -- Added test 'xmllint' to check XML markup files
+[2.915s] -- Configuring done
+[2.940s] -- Generating done
+[2.950s] -- Build files have been written to: /home/npd/Desktop/amr_bot/build/amr_controller
+[2.962s] Invoked command in '/home/npd/Desktop/amr_bot/build/amr_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake /home/npd/Desktop/amr_bot/src/amr_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/npd/Desktop/amr_bot/install/amr_controller
+[2.971s] Invoking command in '/home/npd/Desktop/amr_bot/build/amr_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/npd/Desktop/amr_bot/build/amr_controller -- -j4 -l4
+[3.162s] Invoked command in '/home/npd/Desktop/amr_bot/build/amr_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/npd/Desktop/amr_bot/build/amr_controller -- -j4 -l4
+[3.164s] Invoking command in '/home/npd/Desktop/amr_bot/build/amr_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/npd/Desktop/amr_bot/build/amr_controller
+[3.187s] -- Install configuration: ""
+[3.188s] -- Execute custom install script
+[3.195s] -- Symlinking: /home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/config/amr_controllers.yaml
+[3.236s] -- Symlinking: /home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/launch/controller.launch.py
+[3.290s] -- Symlinking: /home/npd/Desktop/amr_bot/install/amr_controller/share/ament_index/resource_index/package_run_dependencies/amr_controller
+[3.319s] -- Symlinking: /home/npd/Desktop/amr_bot/install/amr_controller/share/ament_index/resource_index/parent_prefix_path/amr_controller
+[3.346s] -- Symlinking: /home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/environment/ament_prefix_path.sh
+[3.378s] -- Symlinking: /home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/environment/ament_prefix_path.dsv
+[3.409s] -- Symlinking: /home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/environment/path.sh
+[3.437s] -- Symlinking: /home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/environment/path.dsv
+[3.467s] -- Symlinking: /home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/local_setup.bash
+[3.505s] -- Symlinking: /home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/local_setup.sh
+[3.534s] -- Symlinking: /home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/local_setup.zsh
+[3.566s] -- Symlinking: /home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/local_setup.dsv
+[3.602s] -- Symlinking: /home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/package.dsv
+[3.630s] -- Symlinking: /home/npd/Desktop/amr_bot/install/amr_controller/share/ament_index/resource_index/packages/amr_controller
+[3.660s] -- Symlinking: /home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/cmake/amr_controllerConfig.cmake
+[3.685s] -- Symlinking: /home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/cmake/amr_controllerConfig-version.cmake
+[3.738s] -- Symlinking: /home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/package.xml
+[3.865s] Invoked command in '/home/npd/Desktop/amr_bot/build/amr_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/npd/Desktop/amr_bot/build/amr_controller

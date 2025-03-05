@@ -1,0 +1,53 @@
+[0.044s] Invoking command in '/home/npd/Desktop/amr_bot/src/build/amr_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake /home/npd/Desktop/amr_bot/src/amr_description -DCMAKE_INSTALL_PREFIX=/home/npd/Desktop/amr_bot/src/install/amr_description
+[0.288s] -- The C compiler identification is GNU 11.4.0
+[0.595s] -- The CXX compiler identification is GNU 11.4.0
+[0.620s] -- Detecting C compiler ABI info
+[0.861s] -- Detecting C compiler ABI info - done
+[0.909s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.918s] -- Detecting C compile features
+[0.919s] -- Detecting C compile features - done
+[0.943s] -- Detecting CXX compiler ABI info
+[1.219s] -- Detecting CXX compiler ABI info - done
+[1.259s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.261s] -- Detecting CXX compile features
+[1.261s] -- Detecting CXX compile features - done
+[1.275s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.745s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.056s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.323s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.324s] -- Added test 'lint_cmake' to check CMake code style
+[2.326s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.335s] -- Added test 'xmllint' to check XML markup files
+[2.340s] -- Configuring done
+[2.350s] -- Generating done
+[2.354s] -- Build files have been written to: /home/npd/Desktop/amr_bot/src/build/amr_description
+[2.366s] Invoked command in '/home/npd/Desktop/amr_bot/src/build/amr_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake /home/npd/Desktop/amr_bot/src/amr_description -DCMAKE_INSTALL_PREFIX=/home/npd/Desktop/amr_bot/src/install/amr_description
+[2.375s] Invoking command in '/home/npd/Desktop/amr_bot/src/build/amr_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/npd/Desktop/amr_bot/src/build/amr_description -- -j4 -l4
+[2.511s] Invoked command in '/home/npd/Desktop/amr_bot/src/build/amr_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/npd/Desktop/amr_bot/src/build/amr_description -- -j4 -l4
+[2.537s] Invoking command in '/home/npd/Desktop/amr_bot/src/build/amr_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/npd/Desktop/amr_bot/src/build/amr_description
+[2.558s] -- Install configuration: ""
+[2.558s] -- Installing: /home/npd/Desktop/amr_bot/src/install/amr_description/share/amr_description/urdf
+[2.558s] -- Installing: /home/npd/Desktop/amr_bot/src/install/amr_description/share/amr_description/urdf/amr_gazebo.xacro
+[2.559s] -- Installing: /home/npd/Desktop/amr_bot/src/install/amr_description/share/amr_description/urdf/amr_ros2_control.xacro
+[2.559s] -- Installing: /home/npd/Desktop/amr_bot/src/install/amr_description/share/amr_description/urdf/amr.urdf.xacro
+[2.559s] -- Installing: /home/npd/Desktop/amr_bot/src/install/amr_description/share/amr_description/launch
+[2.559s] -- Installing: /home/npd/Desktop/amr_bot/src/install/amr_description/share/amr_description/launch/display_fixed.launch.py
+[2.559s] -- Installing: /home/npd/Desktop/amr_bot/src/install/amr_description/share/amr_description/launch/gazebo.launch.py
+[2.561s] -- Installing: /home/npd/Desktop/amr_bot/src/install/amr_description/share/amr_description/rviz
+[2.562s] -- Installing: /home/npd/Desktop/amr_bot/src/install/amr_description/share/amr_description/rviz/amr_rviz.rviz
+[2.564s] -- Installing: /home/npd/Desktop/amr_bot/src/install/amr_description/share/ament_index/resource_index/package_run_dependencies/amr_description
+[2.565s] -- Installing: /home/npd/Desktop/amr_bot/src/install/amr_description/share/ament_index/resource_index/parent_prefix_path/amr_description
+[2.565s] -- Installing: /home/npd/Desktop/amr_bot/src/install/amr_description/share/amr_description/environment/ament_prefix_path.sh
+[2.568s] -- Installing: /home/npd/Desktop/amr_bot/src/install/amr_description/share/amr_description/environment/ament_prefix_path.dsv
+[2.569s] -- Installing: /home/npd/Desktop/amr_bot/src/install/amr_description/share/amr_description/environment/path.sh
+[2.572s] -- Installing: /home/npd/Desktop/amr_bot/src/install/amr_description/share/amr_description/environment/path.dsv
+[2.573s] -- Installing: /home/npd/Desktop/amr_bot/src/install/amr_description/share/amr_description/local_setup.bash
+[2.574s] -- Installing: /home/npd/Desktop/amr_bot/src/install/amr_description/share/amr_description/local_setup.sh
+[2.574s] -- Installing: /home/npd/Desktop/amr_bot/src/install/amr_description/share/amr_description/local_setup.zsh
+[2.575s] -- Installing: /home/npd/Desktop/amr_bot/src/install/amr_description/share/amr_description/local_setup.dsv
+[2.575s] -- Installing: /home/npd/Desktop/amr_bot/src/install/amr_description/share/amr_description/package.dsv
+[2.575s] -- Installing: /home/npd/Desktop/amr_bot/src/install/amr_description/share/ament_index/resource_index/packages/amr_description
+[2.576s] -- Installing: /home/npd/Desktop/amr_bot/src/install/amr_description/share/amr_description/cmake/amr_descriptionConfig.cmake
+[2.576s] -- Installing: /home/npd/Desktop/amr_bot/src/install/amr_description/share/amr_description/cmake/amr_descriptionConfig-version.cmake
+[2.576s] -- Installing: /home/npd/Desktop/amr_bot/src/install/amr_description/share/amr_description/package.xml
+[2.646s] Invoked command in '/home/npd/Desktop/amr_bot/src/build/amr_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/npd/Desktop/amr_bot/src/build/amr_description

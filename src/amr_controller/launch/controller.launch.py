@@ -41,7 +41,7 @@ def generate_launch_description():
     # Spawner for joint state broadcaster
     joint_state_broadcaster_spawner = Node(
         package="controller_manager",
-        executable="spawner.py",  
+        executable="spawner",  # Make sure to use spawner.py
         arguments=[
             "joint_state_broadcaster",
             "--controller-manager",
@@ -53,7 +53,7 @@ def generate_launch_description():
     # Spawner for simple velocity controller
     simple_controller_spawner = Node(
         package="controller_manager",
-        executable="spawner.py",  
+        executable="spawner",  # Make sure to use spawner.py
         arguments=[
             "simple_velocity_controller",
             "--controller-manager",
@@ -75,8 +75,8 @@ def generate_launch_description():
     )
 
     return LaunchDescription([
-        robot_description_node,  
-        controller_manager,      
-        joint_state_timer,       
-        simple_controller_timer  
+        robot_description_node,  # Load the URDF description first
+        controller_manager,      # Start controller manager
+        joint_state_timer,       # Delay joint_state_broadcaster spawning
+        simple_controller_timer  # Delay simple_velocity_controller spawning
     ])

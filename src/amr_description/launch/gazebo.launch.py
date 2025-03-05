@@ -75,7 +75,15 @@ def generate_launch_description():
         output="screen",
         arguments=["-topic", "robot_description", "-name", "amr_bot"]
     )
-
+    
+    controller_spawner = Node(
+        package="controller_manager",
+        executable="spawner",
+        name="controller_spawner",
+        output="screen",
+        arguments=["joint_state_broadcaster","simple_velocity_controller"]
+    )
+    
     return LaunchDescription([
         model_arg,
         is_ignition_arg,  
@@ -85,10 +93,6 @@ def generate_launch_description():
         gazebo,
         gz_spawn_entity
     ])
-
-
-
-
 
 
 
