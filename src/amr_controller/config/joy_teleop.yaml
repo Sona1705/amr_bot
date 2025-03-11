@@ -1,0 +1,19 @@
+joy_teleop:
+  ros__parameters:
+    twist:  
+      type: topic  
+      interface_type: geometry_msgs/msg/Twist
+      topic_name: /amr_controller/cmd_vel
+      deadman_buttons: [5]  
+      axis_mappings:
+        linear:
+          x: 
+            axis: 1
+            scale: 1.0
+            offset: 0.0
+        angular:
+          z:  
+            axis: 3
+            scale: 1.0
+            offset: 0.0
+
