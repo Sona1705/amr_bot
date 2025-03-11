@@ -1,20 +1,21 @@
 <?xml version="1.0"?>
 
-<robot xmlns:xacro="http://ros.org/wiki/xacro">
-
+<robot name="amr_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+   
   <!-- Define the ros2_control configuration -->
-  <xacro:macro name="amr_ros2_control" params="is_sim is_ignition">
+    <xacro:macro name="amr_ros2_control" params="is_sim is_ignition">
+    
     <ros2_control name="RobotSystem" type="gazebo_ros2_control">
   
       <!-- Use Ignition plugin if is_ignition=true -->
-      <xacro:if value="$(arg is_ignition)">
+      <xacro:if value="${is_ignition}">
         <hardware>
           <plugin>ign_ros2_control/IgnitionSystem</plugin>
         </hardware>
       </xacro:if>
 
       <!-- Use Gazebo plugin if is_ignition=false -->
-      <xacro:unless value="$(arg is_ignition)">
+      <xacro:unless value="${is_ignition}">
         <hardware>
           <plugin>gazebo_ros2_control/GazeboSystem</plugin>
         </hardware>
@@ -43,5 +44,5 @@
 
     </ros2_control>
   </xacro:macro>
-
+<xacro:amr_ros2_control is_sim="true" is_ignition="false"/>  
 </robot>
