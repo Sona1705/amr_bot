@@ -1,0 +1,27 @@
+[2.347s] Invoking command in '/home/npd/Desktop/amr_bot/build/amr_py_examples': PYTHONPATH=/home/npd/Desktop/amr_bot/build/amr_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/npd/Desktop/amr_bot/install/amr_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/npd/Desktop/amr_bot/build/amr_py_examples/build --no-deps symlink_data
+[3.213s] running develop
+[3.778s] running egg_info
+[3.779s] creating amr_py_examples.egg-info
+[3.779s] writing amr_py_examples.egg-info/PKG-INFO
+[3.779s] writing dependency_links to amr_py_examples.egg-info/dependency_links.txt
+[3.779s] writing entry points to amr_py_examples.egg-info/entry_points.txt
+[3.780s] writing requirements to amr_py_examples.egg-info/requires.txt
+[3.780s] writing top-level names to amr_py_examples.egg-info/top_level.txt
+[3.781s] writing manifest file 'amr_py_examples.egg-info/SOURCES.txt'
+[3.791s] reading manifest file 'amr_py_examples.egg-info/SOURCES.txt'
+[3.792s] writing manifest file 'amr_py_examples.egg-info/SOURCES.txt'
+[3.796s] running build_ext
+[3.797s] Creating /home/npd/Desktop/amr_bot/install/amr_py_examples/lib/python3.10/site-packages/amr-py-examples.egg-link (link to .)
+[3.802s] Installing simple_parameter script to /home/npd/Desktop/amr_bot/install/amr_py_examples/lib/amr_py_examples
+[3.802s] Installing simple_publisher script to /home/npd/Desktop/amr_bot/install/amr_py_examples/lib/amr_py_examples
+[3.803s] Installing simple_subscriber script to /home/npd/Desktop/amr_bot/install/amr_py_examples/lib/amr_py_examples
+[3.803s] Installing simple_turtlesim_kinematics script to /home/npd/Desktop/amr_bot/install/amr_py_examples/lib/amr_py_examples
+[3.803s] 
+[3.804s] Installed /home/npd/Desktop/amr_bot/build/amr_py_examples
+[3.804s] running symlink_data
+[3.804s] creating /home/npd/Desktop/amr_bot/install/amr_py_examples/share/ament_index
+[3.805s] creating /home/npd/Desktop/amr_bot/install/amr_py_examples/share/ament_index/resource_index
+[3.806s] creating /home/npd/Desktop/amr_bot/install/amr_py_examples/share/ament_index/resource_index/packages
+[3.807s] symbolically linking /home/npd/Desktop/amr_bot/build/amr_py_examples/resource/amr_py_examples -> /home/npd/Desktop/amr_bot/install/amr_py_examples/share/ament_index/resource_index/packages
+[3.807s] symbolically linking /home/npd/Desktop/amr_bot/build/amr_py_examples/package.xml -> /home/npd/Desktop/amr_bot/install/amr_py_examples/share/amr_py_examples
+[3.885s] Invoked command in '/home/npd/Desktop/amr_bot/build/amr_py_examples' returned '0': PYTHONPATH=/home/npd/Desktop/amr_bot/build/amr_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/npd/Desktop/amr_bot/install/amr_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/npd/Desktop/amr_bot/build/amr_py_examples/build --no-deps symlink_data

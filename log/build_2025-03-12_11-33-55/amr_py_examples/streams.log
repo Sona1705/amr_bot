@@ -1,0 +1,30 @@
+[1.421s] Invoking command in '/home/npd/Desktop/amr_bot/src/amr_py_examples': LD_LIBRARY_PATH=/home/npd/Desktop/amr_bot/install/amr_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib PYTHONPATH=/home/npd/Desktop/amr_bot/build/amr_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/npd/Desktop/amr_bot/install/amr_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/amr_py_examples build --build-base /home/npd/Desktop/amr_bot/build/amr_py_examples/build install --record /home/npd/Desktop/amr_bot/build/amr_py_examples/install.log --single-version-externally-managed install_data
+[1.875s] running egg_info
+[1.876s] writing ../../build/amr_py_examples/amr_py_examples.egg-info/PKG-INFO
+[1.877s] writing dependency_links to ../../build/amr_py_examples/amr_py_examples.egg-info/dependency_links.txt
+[1.877s] writing entry points to ../../build/amr_py_examples/amr_py_examples.egg-info/entry_points.txt
+[1.877s] writing requirements to ../../build/amr_py_examples/amr_py_examples.egg-info/requires.txt
+[1.878s] writing top-level names to ../../build/amr_py_examples/amr_py_examples.egg-info/top_level.txt
+[1.882s] reading manifest file '../../build/amr_py_examples/amr_py_examples.egg-info/SOURCES.txt'
+[1.885s] writing manifest file '../../build/amr_py_examples/amr_py_examples.egg-info/SOURCES.txt'
+[1.885s] running build
+[1.885s] running build_py
+[1.886s] copying amr_py_examples/simple_service_server.py -> /home/npd/Desktop/amr_bot/build/amr_py_examples/build/lib/amr_py_examples
+[1.887s] running install
+[1.888s] running install_lib
+[1.890s] copying /home/npd/Desktop/amr_bot/build/amr_py_examples/build/lib/amr_py_examples/simple_service_server.py -> /home/npd/Desktop/amr_bot/install/amr_py_examples/lib/python3.10/site-packages/amr_py_examples
+[1.891s] byte-compiling /home/npd/Desktop/amr_bot/install/amr_py_examples/lib/python3.10/site-packages/amr_py_examples/simple_service_server.py to simple_service_server.cpython-310.pyc
+[1.893s] running install_data
+[1.893s] copying package.xml -> /home/npd/Desktop/amr_bot/install/amr_py_examples/share/amr_py_examples
+[1.893s] running install_egg_info
+[1.898s] removing '/home/npd/Desktop/amr_bot/install/amr_py_examples/lib/python3.10/site-packages/amr_py_examples-0.0.1-py3.10.egg-info' (and everything under it)
+[1.899s] Copying ../../build/amr_py_examples/amr_py_examples.egg-info to /home/npd/Desktop/amr_bot/install/amr_py_examples/lib/python3.10/site-packages/amr_py_examples-0.0.1-py3.10.egg-info
+[1.901s] running install_scripts
+[1.939s] Installing simple_parameter script to /home/npd/Desktop/amr_bot/install/amr_py_examples/lib/amr_py_examples
+[1.939s] Installing simple_publisher script to /home/npd/Desktop/amr_bot/install/amr_py_examples/lib/amr_py_examples
+[1.940s] Installing simple_service_server script to /home/npd/Desktop/amr_bot/install/amr_py_examples/lib/amr_py_examples
+[1.940s] Installing simple_subscriber script to /home/npd/Desktop/amr_bot/install/amr_py_examples/lib/amr_py_examples
+[1.940s] Installing simple_tf_kinematics script to /home/npd/Desktop/amr_bot/install/amr_py_examples/lib/amr_py_examples
+[1.941s] Installing simple_turtlesim_kinematics script to /home/npd/Desktop/amr_bot/install/amr_py_examples/lib/amr_py_examples
+[1.942s] writing list of installed files to '/home/npd/Desktop/amr_bot/build/amr_py_examples/install.log'
+[1.983s] Invoked command in '/home/npd/Desktop/amr_bot/src/amr_py_examples' returned '0': LD_LIBRARY_PATH=/home/npd/Desktop/amr_bot/install/amr_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib PYTHONPATH=/home/npd/Desktop/amr_bot/build/amr_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/npd/Desktop/amr_bot/install/amr_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/amr_py_examples build --build-base /home/npd/Desktop/amr_bot/build/amr_py_examples/build install --record /home/npd/Desktop/amr_bot/build/amr_py_examples/install.log --single-version-externally-managed install_data

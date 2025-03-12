@@ -1,0 +1,27 @@
+[0.062s] Invoking command in '/home/npd/Desktop/amr_bot/build/amr_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/npd/Desktop/amr_bot/build/amr_description -- -j4 -l4
+[0.963s] Invoked command in '/home/npd/Desktop/amr_bot/build/amr_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/npd/Desktop/amr_bot/build/amr_description -- -j4 -l4
+[0.971s] Invoking command in '/home/npd/Desktop/amr_bot/build/amr_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/npd/Desktop/amr_bot/build/amr_description
+[1.028s] -- Install configuration: ""
+[1.030s] -- Execute custom install script
+[1.033s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/urdf/amr.urdf.xacro
+[1.033s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/urdf/amr_gazebo.xacro
+[1.037s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/urdf/amr_ros2_control.xacro
+[1.040s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/launch/display_fixed.launch.py
+[1.040s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/launch/gazebo.launch.py
+[1.044s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/rviz/amr_rviz.rviz
+[1.045s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_description/share/ament_index/resource_index/package_run_dependencies/amr_description
+[1.045s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_description/share/ament_index/resource_index/parent_prefix_path/amr_description
+[1.047s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/environment/ament_prefix_path.sh
+[1.048s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/environment/ament_prefix_path.dsv
+[1.048s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/environment/path.sh
+[1.048s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/environment/path.dsv
+[1.048s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/local_setup.bash
+[1.048s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/local_setup.sh
+[1.049s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/local_setup.zsh
+[1.051s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/local_setup.dsv
+[1.053s] -- Symlinking: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/package.dsv
+[1.057s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_description/share/ament_index/resource_index/packages/amr_description
+[1.058s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/cmake/amr_descriptionConfig.cmake
+[1.059s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/cmake/amr_descriptionConfig-version.cmake
+[1.060s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_description/share/amr_description/package.xml
+[1.118s] Invoked command in '/home/npd/Desktop/amr_bot/build/amr_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/npd/Desktop/amr_bot/build/amr_description

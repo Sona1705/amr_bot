@@ -1,0 +1,48 @@
+[1.747s] Invoking command in '/home/npd/Desktop/amr_bot/build/amr_py_examples': PYTHONPATH=/home/npd/Desktop/amr_bot/build/amr_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/npd/Desktop/amr_bot/install/amr_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/npd/Desktop/amr_bot/build/amr_py_examples/build
+[2.281s] running develop
+[2.599s] Removing /home/npd/Desktop/amr_bot/install/amr_py_examples/lib/python3.10/site-packages/amr-py-examples.egg-link (link to .)
+[2.643s] Invoked command in '/home/npd/Desktop/amr_bot/build/amr_py_examples' returned '0': PYTHONPATH=/home/npd/Desktop/amr_bot/build/amr_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/npd/Desktop/amr_bot/install/amr_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/npd/Desktop/amr_bot/build/amr_py_examples/build
+[2.645s] Invoking command in '/home/npd/Desktop/amr_bot/src/amr_py_examples': PYTHONPATH=/home/npd/Desktop/amr_bot/build/amr_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/npd/Desktop/amr_bot/install/amr_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/amr_py_examples build --build-base /home/npd/Desktop/amr_bot/build/amr_py_examples/build install --record /home/npd/Desktop/amr_bot/build/amr_py_examples/install.log --single-version-externally-managed install_data --force
+[3.107s] running egg_info
+[3.109s] writing ../../build/amr_py_examples/amr_py_examples.egg-info/PKG-INFO
+[3.110s] writing dependency_links to ../../build/amr_py_examples/amr_py_examples.egg-info/dependency_links.txt
+[3.110s] writing entry points to ../../build/amr_py_examples/amr_py_examples.egg-info/entry_points.txt
+[3.111s] writing requirements to ../../build/amr_py_examples/amr_py_examples.egg-info/requires.txt
+[3.111s] writing top-level names to ../../build/amr_py_examples/amr_py_examples.egg-info/top_level.txt
+[3.115s] reading manifest file '../../build/amr_py_examples/amr_py_examples.egg-info/SOURCES.txt'
+[3.119s] writing manifest file '../../build/amr_py_examples/amr_py_examples.egg-info/SOURCES.txt'
+[3.120s] running build
+[3.120s] running build_py
+[3.123s] creating /home/npd/Desktop/amr_bot/build/amr_py_examples/build
+[3.123s] creating /home/npd/Desktop/amr_bot/build/amr_py_examples/build/lib
+[3.123s] creating /home/npd/Desktop/amr_bot/build/amr_py_examples/build/lib/amr_py_examples
+[3.123s] copying amr_py_examples/simple_parameter.py -> /home/npd/Desktop/amr_bot/build/amr_py_examples/build/lib/amr_py_examples
+[3.124s] copying amr_py_examples/simple_subscriber.py -> /home/npd/Desktop/amr_bot/build/amr_py_examples/build/lib/amr_py_examples
+[3.124s] copying amr_py_examples/simple_publisher.py -> /home/npd/Desktop/amr_bot/build/amr_py_examples/build/lib/amr_py_examples
+[3.124s] copying amr_py_examples/__init__.py -> /home/npd/Desktop/amr_bot/build/amr_py_examples/build/lib/amr_py_examples
+[3.128s] copying amr_py_examples/simple_turtlesim_kinematics.py -> /home/npd/Desktop/amr_bot/build/amr_py_examples/build/lib/amr_py_examples
+[3.131s] running install
+[3.131s] running install_lib
+[3.131s] creating /home/npd/Desktop/amr_bot/install/amr_py_examples/lib/python3.10/site-packages/amr_py_examples
+[3.131s] copying /home/npd/Desktop/amr_bot/build/amr_py_examples/build/lib/amr_py_examples/simple_parameter.py -> /home/npd/Desktop/amr_bot/install/amr_py_examples/lib/python3.10/site-packages/amr_py_examples
+[3.132s] copying /home/npd/Desktop/amr_bot/build/amr_py_examples/build/lib/amr_py_examples/simple_subscriber.py -> /home/npd/Desktop/amr_bot/install/amr_py_examples/lib/python3.10/site-packages/amr_py_examples
+[3.132s] copying /home/npd/Desktop/amr_bot/build/amr_py_examples/build/lib/amr_py_examples/simple_publisher.py -> /home/npd/Desktop/amr_bot/install/amr_py_examples/lib/python3.10/site-packages/amr_py_examples
+[3.132s] copying /home/npd/Desktop/amr_bot/build/amr_py_examples/build/lib/amr_py_examples/__init__.py -> /home/npd/Desktop/amr_bot/install/amr_py_examples/lib/python3.10/site-packages/amr_py_examples
+[3.132s] copying /home/npd/Desktop/amr_bot/build/amr_py_examples/build/lib/amr_py_examples/simple_turtlesim_kinematics.py -> /home/npd/Desktop/amr_bot/install/amr_py_examples/lib/python3.10/site-packages/amr_py_examples
+[3.133s] byte-compiling /home/npd/Desktop/amr_bot/install/amr_py_examples/lib/python3.10/site-packages/amr_py_examples/simple_parameter.py to simple_parameter.cpython-310.pyc
+[3.133s] byte-compiling /home/npd/Desktop/amr_bot/install/amr_py_examples/lib/python3.10/site-packages/amr_py_examples/simple_subscriber.py to simple_subscriber.cpython-310.pyc
+[3.133s] byte-compiling /home/npd/Desktop/amr_bot/install/amr_py_examples/lib/python3.10/site-packages/amr_py_examples/simple_publisher.py to simple_publisher.cpython-310.pyc
+[3.133s] byte-compiling /home/npd/Desktop/amr_bot/install/amr_py_examples/lib/python3.10/site-packages/amr_py_examples/__init__.py to __init__.cpython-310.pyc
+[3.133s] byte-compiling /home/npd/Desktop/amr_bot/install/amr_py_examples/lib/python3.10/site-packages/amr_py_examples/simple_turtlesim_kinematics.py to simple_turtlesim_kinematics.cpython-310.pyc
+[3.134s] running install_data
+[3.134s] copying resource/amr_py_examples -> /home/npd/Desktop/amr_bot/install/amr_py_examples/share/ament_index/resource_index/packages
+[3.134s] copying package.xml -> /home/npd/Desktop/amr_bot/install/amr_py_examples/share/amr_py_examples
+[3.134s] running install_egg_info
+[3.141s] Copying ../../build/amr_py_examples/amr_py_examples.egg-info to /home/npd/Desktop/amr_bot/install/amr_py_examples/lib/python3.10/site-packages/amr_py_examples-0.0.1-py3.10.egg-info
+[3.141s] running install_scripts
+[3.186s] Installing simple_parameter script to /home/npd/Desktop/amr_bot/install/amr_py_examples/lib/amr_py_examples
+[3.187s] Installing simple_publisher script to /home/npd/Desktop/amr_bot/install/amr_py_examples/lib/amr_py_examples
+[3.187s] Installing simple_subscriber script to /home/npd/Desktop/amr_bot/install/amr_py_examples/lib/amr_py_examples
+[3.187s] Installing simple_turtlesim_kinematics script to /home/npd/Desktop/amr_bot/install/amr_py_examples/lib/amr_py_examples
+[3.191s] writing list of installed files to '/home/npd/Desktop/amr_bot/build/amr_py_examples/install.log'
+[3.234s] Invoked command in '/home/npd/Desktop/amr_bot/src/amr_py_examples' returned '0': PYTHONPATH=/home/npd/Desktop/amr_bot/build/amr_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/npd/Desktop/amr_bot/install/amr_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/amr_py_examples build --build-base /home/npd/Desktop/amr_bot/build/amr_py_examples/build install --record /home/npd/Desktop/amr_bot/build/amr_py_examples/install.log --single-version-externally-managed install_data --force

@@ -1,0 +1,3 @@
+Invoking command in '/home/npd/Desktop/amr_bot/src/build/ydlidar_sdk': /usr/bin/cmake /home/npd/Desktop/amr_bot/src/YDLidar-SDK -DCMAKE_INSTALL_PREFIX=/home/npd/Desktop/amr_bot/src/install/ydlidar_sdk
+Invoked command in '/home/npd/Desktop/amr_bot/src/build/ydlidar_sdk' returned '0': /usr/bin/cmake /home/npd/Desktop/amr_bot/src/YDLidar-SDK -DCMAKE_INSTALL_PREFIX=/home/npd/Desktop/amr_bot/src/install/ydlidar_sdk
+Invoking command in '/home/npd/Desktop/amr_bot/src/build/ydlidar_sdk': /usr/bin/cmake --build /home/npd/Desktop/amr_bot/src/build/ydlidar_sdk -- -j4 -l4

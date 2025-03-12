@@ -1,0 +1,21 @@
+[0.097s] Invoking command in '/home/npd/Desktop/amr_bot/build/amr_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/npd/Desktop/amr_bot/build/amr_cpp_examples -- -j4 -l4
+[1.790s] Invoked command in '/home/npd/Desktop/amr_bot/build/amr_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/npd/Desktop/amr_bot/build/amr_cpp_examples -- -j4 -l4
+[1.799s] Invoking command in '/home/npd/Desktop/amr_bot/build/amr_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/npd/Desktop/amr_bot/build/amr_cpp_examples
+[1.877s] -- Install configuration: ""
+[1.886s] -- Execute custom install script
+[1.889s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/ament_index/resource_index/package_run_dependencies/amr_cpp_examples
+[1.896s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/ament_index/resource_index/parent_prefix_path/amr_cpp_examples
+[1.896s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/amr_cpp_examples/environment/ament_prefix_path.sh
+[1.900s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/amr_cpp_examples/environment/ament_prefix_path.dsv
+[1.902s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/amr_cpp_examples/environment/path.sh
+[1.910s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/amr_cpp_examples/environment/path.dsv
+[1.910s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/amr_cpp_examples/local_setup.bash
+[1.915s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/amr_cpp_examples/local_setup.sh
+[1.923s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/amr_cpp_examples/local_setup.zsh
+[1.924s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/amr_cpp_examples/local_setup.dsv
+[1.924s] -- Symlinking: /home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/amr_cpp_examples/package.dsv
+[2.038s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/ament_index/resource_index/packages/amr_cpp_examples
+[2.043s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/amr_cpp_examples/cmake/amr_cpp_examplesConfig.cmake
+[2.046s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/amr_cpp_examples/cmake/amr_cpp_examplesConfig-version.cmake
+[2.054s] -- Up-to-date symlink: /home/npd/Desktop/amr_bot/install/amr_cpp_examples/share/amr_cpp_examples/package.xml
+[2.071s] Invoked command in '/home/npd/Desktop/amr_bot/build/amr_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/npd/Desktop/amr_bot/build/amr_cpp_examples

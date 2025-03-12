@@ -1,0 +1,8 @@
+digraph G {
+"odom" -> "amr_base"[label=" Broadcaster: default_authority\nAverage rate: 10.322\nBuffer length: 3.1\nMost recent transform: 1741771026.991992\nOldest transform: 1741771023.891771\n"];
+"amr_base" -> "amr_top"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1741771027.0285094"[ shape=plaintext ] ;
+}->"odom";
+}

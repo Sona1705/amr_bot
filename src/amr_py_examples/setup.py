@@ -24,6 +24,9 @@ setup(
             'simple_subscriber = amr_py_examples.simple_subscriber:main',
             'simple_parameter = amr_py_examples.simple_parameter:main',
             'simple_turtlesim_kinematics = amr_py_examples.simple_turtlesim_kinematics:main',
+            'simple_tf_kinematics = amr_py_examples.simple_tf_kinematics:main',
+            'simple_service_server = amr_py_examples.simple_service_server:main',
+            'simple_service_client = amr_py_examples.simple_service_client:main'
         ],
     },
 )

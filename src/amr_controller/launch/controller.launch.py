@@ -22,12 +22,12 @@ def launch_setup(context, *args, **kwargs):
     
     wheel_radius_arg = DeclareLaunchArgument(
         "wheel_radius",
-        default_value="0.08"
+        default_value="0.033"
     )
     
     wheel_separation_arg = DeclareLaunchArgument(
         "wheel_separation",
-        default_value="0.594"
+        default_value="0.644"
     )
 
     controller_yaml = os.path.join(
@@ -49,7 +49,7 @@ def launch_setup(context, *args, **kwargs):
         output="screen",
         parameters=[{"--inorder", robot_description}]
     )
-    
+
 
     controller_manager = Node(
         package="controller_manager",
