@@ -118,8 +118,8 @@ def launch_setup(context, *args, **kwargs):
 def generate_launch_description():
     return LaunchDescription([
         DeclareLaunchArgument("use_python", default_value="False", description="Use Python-based simple controller if set to True"),
-        DeclareLaunchArgument("wheel_radius", default_value="0.08"),
-        DeclareLaunchArgument("wheel_separation", default_value="0.594"),
+        DeclareLaunchArgument("wheel_radius", default_value="0.033"),
+        DeclareLaunchArgument("wheel_separation", default_value="0.644"),
         OpaqueFunction(function=launch_setup)
     ])
     
