@@ -50,7 +50,6 @@ def launch_setup(context, *args, **kwargs):
         parameters=[{"--inorder", robot_description}]
     )
 
-
     controller_manager = Node(
         package="controller_manager",
         executable="ros2_control_node",

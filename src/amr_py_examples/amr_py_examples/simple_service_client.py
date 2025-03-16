@@ -22,7 +22,6 @@ class SimpleServiceClient(Node):
     def responseCallback(self, future):
         self.get_logger().info("Service Response %d" % future.result().sum)
 
-
 def main():
     rclpy.init()
 

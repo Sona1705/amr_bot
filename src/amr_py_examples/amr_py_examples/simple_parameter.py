@@ -8,7 +8,7 @@ class SimpleParameter(Node):
         super().__init__("simple_parameter")
 
         self.declare_parameter("simple_int_param",28)
-        self.declare_parameter("simple_string_param","Antonio")
+        self.declare_parameter("simple_string_param","Amr")
 
         self.add_on_set_parameters_callback(self.paramChangeCallback)
 

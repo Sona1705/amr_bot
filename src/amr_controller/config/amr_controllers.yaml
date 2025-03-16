@@ -18,5 +18,5 @@ simple_velocity_controller:
       - wheel_left_joint
       - wheel_right_joint
     wheel_radius: 0.033
-    wheel_separation: 0.644
+    wheel_separation: 0.644 
   

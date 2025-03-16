@@ -10,20 +10,23 @@ def generate_launch_description():
         executable="joy_node",
         name="joystick",
         parameters=[os.path.join(
-            get_package_share_directory("amr_controller"),"config","joy_config.yaml"
+            get_package_share_directory("amr_controller"), "config", "joy_config.yaml"
         )]
     )
     
     joy_teleop = Node(
-        package="joy_teleop",
-        executable="joy_teleop",
+        package="teleop_joy",  
+        executable="teleop_joy", 
+        name="joy_teleop",
         parameters=[os.path.join(
-            get_package_share_directory("amr_controller"),"config","joy_teleop.yaml"
-        )]
+            get_package_share_directory("amr_controller"), "config", "joy_teleop.yaml"
+        )],
+        remappings=[  
+            ("/amr_controller/cmd_vel", "/cmd_vel_stamped")
+        ]
     )
- 
+
     return LaunchDescription([
         joy_node,
         joy_teleop
     ])
-   

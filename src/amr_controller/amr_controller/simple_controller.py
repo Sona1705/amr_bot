@@ -29,10 +29,12 @@ class SimpleController(Node):
         self.get_logger().info("The conversion matrix is %s" %self.speed_conversion_)
 
     def velCallback(self, msg):
+        self.get_logger().info(f"Received cmd_vel: linear={msg.twist.linear.x}, angular={msg.twist.angular.z}")
         robot_speed = np.array([[msg.twist.linear.x],
                                 [msg.twist.angular.z]])
 
-        wheel_speed = np.matmul(np.linalg.inv(self.speed_conversion_), robot_speed)  
+        wheel_speed = np.matmul(np.linalg.inv(self.speed_conversion_), robot_speed) 
+        self.get_logger().info(f"Computed wheel speeds: left={wheel_speed[1,0]}, right={wheel_speed[0,0]}") 
         wheel_speed_msg = Float64MultiArray()
         wheel_speed_msg.data = [wheel_speed[1, 0], wheel_speed[0, 0]]
         self.wheel_cmd_pub_.publish(wheel_speed_msg)
