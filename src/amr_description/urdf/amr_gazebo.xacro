@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<robot name="amr_robot" xmlns:xacro="http://ros.org/wiki/xacro">
+<robot name="amr_bot" xmlns:xacro="http://ros.org/wiki/xacro">
 
   <!-- Middle Drive Wheels -->
   <gazebo reference="wheel_left_link">
@@ -58,6 +58,21 @@
     <minDepth>0.001</minDepth>
     <maxVel>1.0</maxVel>
   </gazebo>
+
+<!-- Diff Drive Plugin (ADD THIS SECTION) -->
+  <gazebo>
+    <plugin filename="libgazebo_ros_diff_drive.so" name="diff_drive">
+      <ros>
+        <namespace>/amr_controller</namespace>
+        <remapping>cmd_vel:=cmd_vel</remapping>  <!-- Remove `/` in remapping -->
+      </ros>
+      <left_joint>left_wheel_joint</left_joint>
+      <right_joint>right_wheel_joint</right_joint>
+      <wheel_separation>0.322</wheel_separation>
+      <wheel_radius>0.08</wheel_radius>
+    </plugin>
+  </gazebo>
+
   <!-- ROS 2 Control -->
   <gazebo>
     <!-- Ignition plugin for ROS2 Control -->

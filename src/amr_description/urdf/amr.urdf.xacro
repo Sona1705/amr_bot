@@ -24,20 +24,17 @@
   <inertial>
 <!-- Slightly increase the mass for better stability -->
     <origin xyz="0 0 0.1" rpy="0.0 0.0 0.0"/>
-    <mass value="1.2"/>
-<!-- Increased from 0.82573504 -->
+    <mass value="1.2"/>   <!-- Increased from 0.82573504 -->
     <inertia ixx="0.03" ixy="-0.0001" ixz="0.0003" iyy="0.03" iyz="-0.00005" izz="0.025"/>
   </inertial>
   <visual>
     <geometry>
-      <box size="1.195 0.925 0.385"/>
-<!-- Slightly increased height for center of gravity -->
+      <box size="1.195 0.925 0.385"/>  <!-- Slightly increased height for center of gravity -->
     </geometry>
     <origin xyz="0 0 0.1" rpy="0 0 0"/>
   <material name="Green">
     <color rgba="0 1 0 1"/> <!-- Green color (R,G,B,A) -->
   </material>
-
   </visual>
   <collision>
     <geometry>
@@ -50,8 +47,7 @@
 <link name="lidar">
   <inertial>
     <origin xyz="0 0 0" rpy="0 0 0"/>
-    <mass value="0.6"/>
-<!-- Slightly increased mass for stability -->
+    <mass value="0.6"/>  <!-- Slightly increased mass for stability -->
     <inertia ixx="0.0006" ixy="0" ixz="0" iyy="0.0006" iyz="0" izz="0.0006"/>
   </inertial>
   <visual>
@@ -70,15 +66,16 @@
     <origin xyz="0 0 0.1" rpy="0 0 0"/>
   </collision>
 </link>
+
 <link name="wheel_left_link">
   <inertial>
     <origin xyz="0 0 0" rpy="0 0 0"/>
-    <mass value="0.065"/> <!-- Increased mass for wheels to improve control -->
+    <mass value="0.065"/>  <!-- Increased mass for wheels to improve control -->
     <inertia ixx="0.00002" ixy="0" ixz="0" iyy="0.00004" iyz="0" izz="0.00002" />
   </inertial>
   <visual>
     <geometry>
-      <cylinder radius="0.09" length="0.06"/> <!-- Slightly larger wheel for better grip -->
+      <cylinder radius="0.08" length="0.06"/>  <!-- Slightly larger wheel for better grip -->
     </geometry>
     <origin xyz="0 0 0" rpy="1.57 0 0"/>
   </visual>
@@ -98,7 +95,7 @@
   </inertial>
   <visual>
     <geometry>
-      <cylinder radius="0.09" length="0.06"/>
+      <cylinder radius="0.08" length="0.06"/>
     </geometry>
     <origin xyz="0 0 0" rpy="-1.57 0 0"/>
   </visual>
@@ -193,7 +190,7 @@
 <joint name="base_joint" type="fixed">
   <parent link="base_footprint"/>
   <child link="base_link"/>
-  <origin xyz="0 0 0.1" rpy="0 0 0.033"/>
+  <origin xyz="0 0 0.1" rpy="0 0 0"/>
 </joint>
 
 <joint name="base_lidar_joint" type="fixed">
@@ -201,25 +198,26 @@
   <child link="lidar"/>
   <origin xyz="0 0 0.15" rpy="0 0 0"/>
 </joint>
+
 <!-- Fine-tuned joint parameters -->
 <joint name="wheel_right_joint" type="continuous">
   <parent link="base_link"/>
   <child link="wheel_right_link"/>
-  <origin xyz="-0.05 0.34 -0.09" rpy="0 0 0"/>
-<!-- Increased distance for better stability -->
+  <origin xyz="-0.05 0.34 -0.09" rpy="0 0 0"/>  <!-- Increased distance for better stability -->
   <axis xyz="0 1 0"/>
-  <dynamics damping="0.5" friction="1.0"/> 
+  <dynamics damping="0.1" friction="0.5"/> 
 </joint>
 
 <joint name="wheel_left_joint" type="continuous">
   <parent link="base_link"/>
   <child link="wheel_left_link"/>
-  <origin xyz="-0.05 -0.34 -0.09" rpy="0 0 0"/>
-<!-- Symmetrical adjustment -->
+  <origin xyz="-0.05 -0.34 -0.09" rpy="0 0 0"/>  <!-- Symmetrical adjustment -->
   <axis xyz="0 1 0"/>
-  <dynamics damping="0.5" friction="1.0"/> 
+  <dynamics damping="0.1" friction="0.5"/> 
   </joint>
+
 <!-- Rest of the caster wheel joints remain unchanged -->
+
 <joint name="front_caster_wheel_joint" type="fixed">
   <parent link="base_link"/>
   <child link="caster_wheel_front"/>
@@ -247,4 +245,19 @@
   <origin xyz="-0.4 0.32 -0.09" rpy="0 0 0"/>
   <axis xyz="0 1 0"/>
 </joint>
+
+<!-- Transmissions for ros2_control -->
+  <transmission name="left_wheel_transmission">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="wheel_left_joint">
+      <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+    </joint>
+  </transmission>
+
+  <transmission name="right_wheel_transmission">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="wheel_right_joint">
+      <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+    </joint>
+  </transmission>
 </robot>

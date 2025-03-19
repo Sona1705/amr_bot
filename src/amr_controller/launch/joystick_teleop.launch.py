@@ -15,16 +15,18 @@ def generate_launch_description():
     )
     
     joy_teleop = Node(
-        package="teleop_joy",  
-        executable="teleop_joy", 
+        package="teleop_twist_joy",
+        executable="teleop_node",
         name="joy_teleop",
         parameters=[os.path.join(
             get_package_share_directory("amr_controller"), "config", "joy_teleop.yaml"
         )],
+        
         remappings=[  
-            ("/amr_controller/cmd_vel", "/cmd_vel_stamped")
-        ]
+             ("/cmd_vel_stamped", "/amr_controller/cmd_vel")  
+       ]
     )
+
 
     return LaunchDescription([
         joy_node,

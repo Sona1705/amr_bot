@@ -1,127 +1,182 @@
 import os
-from launch import LaunchDescription
 from ament_index_python.packages import get_package_share_directory
-from launch.actions import DeclareLaunchArgument, TimerAction, OpaqueFunction
-from launch.substitutions import LaunchConfiguration, Command 
-from launch_ros.actions import Node 
-from launch.conditions import IfCondition
-import xacro
+from launch import LaunchDescription
+from launch.actions import DeclareLaunchArgument, GroupAction
+from launch_ros.actions import Node
+from launch.substitutions import LaunchConfiguration
+from launch.conditions import UnlessCondition, IfCondition
 
-def launch_setup(context, *args, **kwargs):
-
-    use_python = LaunchConfiguration("use_python").perform(context)
-    wheel_radius = float(LaunchConfiguration("wheel_radius").perform(context))
-    wheel_separation = float(LaunchConfiguration("wheel_separation").perform(context))
-
-    
+def generate_launch_description():
+    # Declare launch arguments
+    use_sim_time_arg = DeclareLaunchArgument(
+        "use_sim_time", 
+        default_value="True"
+        )
+    use_simple_controller_arg = DeclareLaunchArgument(
+        "use_simple_controller", 
+        default_value="True"
+        )
     use_python_arg = DeclareLaunchArgument(
-        "use_python",
-        default_value="False",
-        description="Use Python-based simple controller if set to True"
-    )
-    
+        "use_python", 
+        default_value="False"
+        )
     wheel_radius_arg = DeclareLaunchArgument(
-        "wheel_radius",
-        default_value="0.033"
-    )
-    
+        "wheel_radius", 
+        default_value="0.08"
+        )
     wheel_separation_arg = DeclareLaunchArgument(
-        "wheel_separation",
-        default_value="0.644"
-    )
+        "wheel_separation", 
+        default_value="0.322"
+        )
+    
+    # Get launch configurations
+    use_sim_time = LaunchConfiguration("use_sim_time")
+    use_simple_controller = LaunchConfiguration("use_simple_controller")
+    use_python = LaunchConfiguration("use_python")
+    wheel_radius = LaunchConfiguration("wheel_radius")
+    wheel_separation = LaunchConfiguration("wheel_separation")
 
-    controller_yaml = os.path.join(
+    controller_manager_node = Node(
+    package="controller_manager",
+    executable="ros2_control_node",
+    parameters=[os.path.join(
         get_package_share_directory("amr_controller"),
         "config",
         "amr_controllers.yaml"
-    )
-
-    robot_description = os.path.join(
-        get_package_share_directory("amr_description"),
-        "urdf",
-        "amr_ros2_control.xacro"
-    )
-
-    robot_description_node = Node(
-        package="xacro",
-        executable="xacro",
-        name="robot_state_publisher",
-        output="screen",
-        parameters=[{"--inorder", robot_description}]
-    )
-
-    controller_manager = Node(
-        package="controller_manager",
-        executable="ros2_control_node",
-        parameters=[controller_yaml],
-        output="screen"
-    )
-
+    )],
+    output="screen",
+)
+    # Joint state broadcaster
     joint_state_broadcaster_spawner = Node(
         package="controller_manager",
-        executable="spawner", 
-        arguments=[
-            "joint_state_broadcaster",
-            "--controller-manager",
-            "/controller_manager"
-        ],
-        output="screen"
+        executable="spawner",
+        arguments=["joint_state_broadcaster", 
+                   "--controller-manager", 
+                   "/controller_manager"],
     )
-    
-    simple_controller_spawner = Node(
+
+    # Main wheel controller
+    wheel_controller_spawner = Node(
         package="controller_manager",
-        executable="spawner", 
-        arguments=[
-            "simple_velocity_controller",
-            "--controller-manager",
-            "/controller_manager"
-        ],
-        output="screen"
+        executable="spawner",
+        arguments=["amr_controller", "--controller-manager", "/controller_manager"],
+        condition=UnlessCondition(use_simple_controller),
     )
 
-    # Timer to delay launching joint state broadcaster
-    joint_state_timer = TimerAction(
-        period=3.0, # Delay by 3 seconds
-        actions=[joint_state_broadcaster_spawner]
+    # Simple controller
+    simple_controller = GroupAction(
+        condition=IfCondition(use_simple_controller),
+        actions=[
+            Node(
+                package="controller_manager",
+                executable="spawner",
+                arguments=["simple_velocity_controller", "--controller-manager", "/controller_manager"]
+            ),
+            Node(
+                package="amr_controller",
+                executable="simple_controller.py",
+                parameters=[
+                    {"wheel_radius": wheel_radius, "wheel_separation": wheel_separation, "use_sim_time": use_sim_time}
+                ],
+                condition=IfCondition(use_python),
+            ),
+            Node(
+                package="amr_controller",
+                executable="simple_controller",
+                parameters=[
+                    {"wheel_radius": wheel_radius, "wheel_separation": wheel_separation, "use_sim_time": use_sim_time}
+                ],
+                condition=UnlessCondition(use_python),
+            ),
+        ]
     )
 
-    # Timer to delay launching velocity controller
-    simple_controller_timer = TimerAction(
-        period=5.0, # Delay by 5 seconds
-        actions=[simple_controller_spawner]
-    )
-
-    simple_controller_py = Node(
-        package="amr_controller",
-        executable="simple_controller.py",
-        parameters=[{"wheel_radius": wheel_radius,
-                     "wheel_separation": wheel_separation
-        }],
-        output="screen",
-        
-        condition=IfCondition(use_python)
-        
-    )
-
-    return ([
+    return LaunchDescription([
+        use_sim_time_arg,
+        use_simple_controller_arg,
         use_python_arg,
         wheel_radius_arg,
         wheel_separation_arg,
-        robot_description_node,
-        controller_manager,
-        simple_controller_py,
-        joint_state_timer, 
-        simple_controller_timer 
+        controller_manager_node, 
+        joint_state_broadcaster_spawner,
+        wheel_controller_spawner,
+        simple_controller,
     ])
 
-def generate_launch_description():
-    return LaunchDescription([
-        DeclareLaunchArgument("use_python", default_value="False", description="Use Python-based simple controller if set to True"),
-        DeclareLaunchArgument("wheel_radius", default_value="0.033"),
-        DeclareLaunchArgument("wheel_separation", default_value="0.644"),
-        OpaqueFunction(function=launch_setup)
-    ])
-    
-    
 
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
