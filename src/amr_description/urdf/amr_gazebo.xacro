@@ -59,17 +59,21 @@
     <maxVel>1.0</maxVel>
   </gazebo>
 
-<!-- Diff Drive Plugin (ADD THIS SECTION) -->
+<!-- Diff Drive Plugin -->
   <gazebo>
     <plugin filename="libgazebo_ros_diff_drive.so" name="diff_drive">
       <ros>
         <namespace>/amr_controller</namespace>
-        <remapping>cmd_vel:=cmd_vel</remapping>  <!-- Remove `/` in remapping -->
+        <remapping>cmd_vel:=/amr_controller/cmd_vel</remapping>
       </ros>
       <left_joint>left_wheel_joint</left_joint>
       <right_joint>right_wheel_joint</right_joint>
       <wheel_separation>0.322</wheel_separation>
       <wheel_radius>0.08</wheel_radius>
+      <odom_frame>odom</odom_frame>
+      <robot_base_frame>base_link</robot_base_frame>
+      <update_rate>50</update_rate>
+      <max_wheel_torque>10.0</max_wheel_torque>
     </plugin>
   </gazebo>
 

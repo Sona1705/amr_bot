@@ -57,13 +57,13 @@
   <material name="red">
     <color rgba="1 0 0 1"/> 
   </material>
-  <origin xyz="0 0 0.1" rpy="0 0 0"/>
+  <origin xyz="0 0 0.15" rpy="0 0 0"/>
   </visual>
   <collision>
     <geometry>
       <cylinder radius="0.1" length="0.05"/>
     </geometry>
-    <origin xyz="0 0 0.1" rpy="0 0 0"/>
+    <origin xyz="0 0 0.15" rpy="0 0 0"/>
   </collision>
 </link>
 
