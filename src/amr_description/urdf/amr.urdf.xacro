@@ -246,6 +246,33 @@
   <axis xyz="0 1 0"/>
 </joint>
 
+<link name="imu_link">
+  <inertial>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <mass value="0.00144379265037902"/>
+    <inertia ixx="0.0000000000723075276010246" ixy="0" ixz="0" iyy="0.0000000000387137930859167" iyz="0" izz="0.000000000100967486676306"/>
+  </inertial>
+  <visual>
+   <origin xyz="0 0 0" rpy="0 0 0"/>
+   <geometry>
+
+   </geometry>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  <geometry>
+    
+  </geometry>
+  </collision>
+</link>
+
+<joint name="imu_joint" type="fixed">
+  <origin xyz="0 0 0" rpy="3.14 0 0"/>
+  <parent link="base_link"/>
+  <child link="imu_link"/>
+  <axis xyz="0 0 0"/>
+</joint>
+
 <!-- Transmissions for ros2_control -->
   <transmission name="left_wheel_transmission">
     <type>transmission_interface/SimpleTransmission</type>

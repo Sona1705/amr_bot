@@ -76,13 +76,22 @@ def generate_launch_description():
         output="screen",
         arguments=["-topic", "robot_description", "-name", "amr_bot"]
     )
-    
+    gz_ros2_bridge = Node(
+        package="ros_gz_bridge",
+        executable="parameter_bridge",
+        arguments=[
+            "/imu@sensor_msgs/msg/Imu[gz.msgs.IMU"
+        ],
+        remappings=[
+            ("/imu", "/imu/out")
+        ]
+    )
     controller_spawner = Node(
         package="controller_manager",
         executable="spawner",
         name="controller_spawner",
         output="screen",
-        arguments=["joint_state_broadcaster","simple_velocity_controller"]
+        arguments=["joint_state_broadcaster","amr_controller"]
     )
     
     return LaunchDescription([
@@ -92,7 +101,9 @@ def generate_launch_description():
         gazebo_resource_path,
         ignition_resource_path,
         gazebo,
-        gz_spawn_entity
+        gz_spawn_entity,
+        controller_spawner,
+        gz_ros2_bridge
     ])
 
 

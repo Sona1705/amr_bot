@@ -12,6 +12,11 @@ find_package(rclpy REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
+find_package(nav_msgs REQUIRED)
+find_package(tf2 REQUIRED)
+find_package(tf2_ros REQUIRED)
+
+
 
 ament_python_install_package(${PROJECT_NAME})
 
@@ -22,6 +27,7 @@ install(
 
 install(PROGRAMS
   ${PROJECT_NAME}/simple_controller.py
+  ${PROJECT_NAME}/noisy_controller.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
