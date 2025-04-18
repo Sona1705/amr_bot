@@ -3,15 +3,15 @@
     move:
       type: topic
       interface_type: geometry_msgs/msg/TwistStamped
-      topic_name: /cmd_vel_stamped
-      deadman_buttons: [5]
+      topic_name: /amr_controller/cmd_vel
+      deadman_buttons: [4]
       axis_mappings:
         twist-linear-x:
-          axis: 5
+          axis: 1
           scale: 1.0 
           offset: 0.0
         twist-angular-z:
-          axis: 2
+          axis: 3
           scale: 8.0
           offset: 0.0 
-      stamp_header: true 
+      stamp_header: false 
