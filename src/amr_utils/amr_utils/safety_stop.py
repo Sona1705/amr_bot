@@ -58,10 +58,10 @@ class SafetyStop(Node):
 
     def laser_callback(self, msg: LaserScan):
         self.state = State.FREE
+        self.state = State.WARNING
 
         for range_value in msg.ranges:
             if not math.isinf(range_value) and range_value <= self.warning_distance:
-                self.state = State.WARNING
                 if range_value <= self.danger_distance:
                     self.state = State.DANGER
                 break

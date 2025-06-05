@@ -1,0 +1,24 @@
+[1.413s] Invoking command in '/home/npd/Desktop/amr_bot/src/amr_sensors': PYTHONPATH=/home/npd/Desktop/amr_bot/build/amr_sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/npd/Desktop/amr_bot/install/amr_sensors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/amr_sensors build --build-base /home/npd/Desktop/amr_bot/build/amr_sensors/build install --record /home/npd/Desktop/amr_bot/build/amr_sensors/install.log --single-version-externally-managed install_data
+[1.900s] running egg_info
+[1.901s] writing ../../build/amr_sensors/amr_sensors.egg-info/PKG-INFO
+[1.902s] writing dependency_links to ../../build/amr_sensors/amr_sensors.egg-info/dependency_links.txt
+[1.902s] writing entry points to ../../build/amr_sensors/amr_sensors.egg-info/entry_points.txt
+[1.902s] writing requirements to ../../build/amr_sensors/amr_sensors.egg-info/requires.txt
+[1.903s] writing top-level names to ../../build/amr_sensors/amr_sensors.egg-info/top_level.txt
+[1.907s] reading manifest file '../../build/amr_sensors/amr_sensors.egg-info/SOURCES.txt'
+[1.909s] writing manifest file '../../build/amr_sensors/amr_sensors.egg-info/SOURCES.txt'
+[1.909s] running build
+[1.909s] running build_py
+[1.910s] copying amr_sensors/front_lidar_reader.py -> /home/npd/Desktop/amr_bot/build/amr_sensors/build/lib/amr_sensors
+[1.910s] running install
+[1.911s] running install_lib
+[1.912s] copying /home/npd/Desktop/amr_bot/build/amr_sensors/build/lib/amr_sensors/front_lidar_reader.py -> /home/npd/Desktop/amr_bot/install/amr_sensors/lib/python3.10/site-packages/amr_sensors
+[1.913s] byte-compiling /home/npd/Desktop/amr_bot/install/amr_sensors/lib/python3.10/site-packages/amr_sensors/front_lidar_reader.py to front_lidar_reader.cpython-310.pyc
+[1.915s] running install_data
+[1.915s] running install_egg_info
+[1.918s] removing '/home/npd/Desktop/amr_bot/install/amr_sensors/lib/python3.10/site-packages/amr_sensors-0.0.0-py3.10.egg-info' (and everything under it)
+[1.919s] Copying ../../build/amr_sensors/amr_sensors.egg-info to /home/npd/Desktop/amr_bot/install/amr_sensors/lib/python3.10/site-packages/amr_sensors-0.0.0-py3.10.egg-info
+[1.921s] running install_scripts
+[1.960s] Installing front_lidar_reader script to /home/npd/Desktop/amr_bot/install/amr_sensors/lib/amr_sensors
+[1.961s] writing list of installed files to '/home/npd/Desktop/amr_bot/build/amr_sensors/install.log'
+[2.000s] Invoked command in '/home/npd/Desktop/amr_bot/src/amr_sensors' returned '0': PYTHONPATH=/home/npd/Desktop/amr_bot/build/amr_sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/npd/Desktop/amr_bot/install/amr_sensors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/amr_sensors build --build-base /home/npd/Desktop/amr_bot/build/amr_sensors/build install --record /home/npd/Desktop/amr_bot/build/amr_sensors/install.log --single-version-externally-managed install_data

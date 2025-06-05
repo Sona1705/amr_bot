@@ -1,0 +1,45 @@
+[0.068s] Invoking command in '/home/npd/Desktop/amr_bot/build/amr_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_sensors:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/npd/Desktop/amr_bot/build/amr_mapping -- -j4 -l4
+[0.729s] Built target ament_cmake_python_copy_amr_mapping
+[3.111s] running egg_info
+[3.123s] writing amr_mapping.egg-info/PKG-INFO
+[3.124s] writing dependency_links to amr_mapping.egg-info/dependency_links.txt
+[3.124s] writing top-level names to amr_mapping.egg-info/top_level.txt
+[3.138s] reading manifest file 'amr_mapping.egg-info/SOURCES.txt'
+[3.138s] writing manifest file 'amr_mapping.egg-info/SOURCES.txt'
+[3.340s] Built target ament_cmake_python_build_amr_mapping_egg
+[5.081s] Invoked command in '/home/npd/Desktop/amr_bot/build/amr_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_sensors:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/npd/Desktop/amr_bot/build/amr_mapping -- -j4 -l4
+[5.083s] Invoking command in '/home/npd/Desktop/amr_bot/build/amr_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_sensors:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/npd/Desktop/amr_bot/build/amr_mapping
+[5.205s] -- Install configuration: ""
+[5.236s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_mapping/share/amr_mapping/environment/pythonpath.sh
+[5.237s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_mapping/share/amr_mapping/environment/pythonpath.dsv
+[5.237s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_mapping/local/lib/python3.10/dist-packages/amr_mapping-0.0.0-py3.10.egg-info
+[5.237s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_mapping/local/lib/python3.10/dist-packages/amr_mapping-0.0.0-py3.10.egg-info/PKG-INFO
+[5.246s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_mapping/local/lib/python3.10/dist-packages/amr_mapping-0.0.0-py3.10.egg-info/top_level.txt
+[5.246s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_mapping/local/lib/python3.10/dist-packages/amr_mapping-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.247s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_mapping/local/lib/python3.10/dist-packages/amr_mapping-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.247s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_mapping/local/lib/python3.10/dist-packages/amr_mapping
+[5.266s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_mapping/local/lib/python3.10/dist-packages/amr_mapping/mapping_with_known_poses.py
+[5.267s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_mapping/local/lib/python3.10/dist-packages/amr_mapping/__init__.py
+[5.715s] Listing '/home/npd/Desktop/amr_bot/install/amr_mapping/local/lib/python3.10/dist-packages/amr_mapping'...
+[5.715s] Compiling '/home/npd/Desktop/amr_bot/install/amr_mapping/local/lib/python3.10/dist-packages/amr_mapping/mapping_with_known_poses.py'...
+[5.733s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_mapping/lib/amr_mapping/mapping_with_known_poses.py
+[5.734s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_mapping/share/amr_mapping/maps
+[5.734s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_mapping/share/amr_mapping/maps/small_house
+[5.737s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_mapping/share/amr_mapping/maps/small_house/map.yaml
+[5.741s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_mapping/share/amr_mapping/maps/small_house/map.pgm
+[5.741s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_mapping/share/ament_index/resource_index/package_run_dependencies/amr_mapping
+[5.741s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_mapping/share/ament_index/resource_index/parent_prefix_path/amr_mapping
+[5.741s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_mapping/share/amr_mapping/environment/ament_prefix_path.sh
+[5.744s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_mapping/share/amr_mapping/environment/ament_prefix_path.dsv
+[5.746s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_mapping/share/amr_mapping/environment/path.sh
+[5.749s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_mapping/share/amr_mapping/environment/path.dsv
+[5.749s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_mapping/share/amr_mapping/local_setup.bash
+[5.749s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_mapping/share/amr_mapping/local_setup.sh
+[5.749s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_mapping/share/amr_mapping/local_setup.zsh
+[5.749s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_mapping/share/amr_mapping/local_setup.dsv
+[5.749s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_mapping/share/amr_mapping/package.dsv
+[5.750s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_mapping/share/ament_index/resource_index/packages/amr_mapping
+[5.750s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_mapping/share/amr_mapping/cmake/amr_mappingConfig.cmake
+[5.750s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_mapping/share/amr_mapping/cmake/amr_mappingConfig-version.cmake
+[5.750s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_mapping/share/amr_mapping/package.xml
+[5.785s] Invoked command in '/home/npd/Desktop/amr_bot/build/amr_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_sensors:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/npd/Desktop/amr_bot/build/amr_mapping

@@ -1,0 +1,40 @@
+[0.220s] Invoking command in '/home/npd/Desktop/amr_bot/build/amr_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_sensors:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/npd/Desktop/amr_bot/build/amr_utils -- -j4 -l4
+[0.668s] Built target ament_cmake_python_copy_amr_utils
+[1.964s] running egg_info
+[1.969s] writing amr_utils.egg-info/PKG-INFO
+[1.969s] writing dependency_links to amr_utils.egg-info/dependency_links.txt
+[1.970s] writing top-level names to amr_utils.egg-info/top_level.txt
+[1.986s] reading manifest file 'amr_utils.egg-info/SOURCES.txt'
+[1.992s] writing manifest file 'amr_utils.egg-info/SOURCES.txt'
+[2.118s] Built target ament_cmake_python_build_amr_utils_egg
+[2.198s] Invoked command in '/home/npd/Desktop/amr_bot/build/amr_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_sensors:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/npd/Desktop/amr_bot/build/amr_utils -- -j4 -l4
+[2.209s] Invoking command in '/home/npd/Desktop/amr_bot/build/amr_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_sensors:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/npd/Desktop/amr_bot/build/amr_utils
+[2.287s] -- Install configuration: ""
+[2.287s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_utils/share/amr_utils/environment/pythonpath.sh
+[2.287s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_utils/share/amr_utils/environment/pythonpath.dsv
+[2.287s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_utils/local/lib/python3.10/dist-packages/amr_utils-0.0.0-py3.10.egg-info
+[2.288s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_utils/local/lib/python3.10/dist-packages/amr_utils-0.0.0-py3.10.egg-info/PKG-INFO
+[2.288s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_utils/local/lib/python3.10/dist-packages/amr_utils-0.0.0-py3.10.egg-info/top_level.txt
+[2.288s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_utils/local/lib/python3.10/dist-packages/amr_utils-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.293s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_utils/local/lib/python3.10/dist-packages/amr_utils-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.294s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_utils/local/lib/python3.10/dist-packages/amr_utils
+[2.294s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_utils/local/lib/python3.10/dist-packages/amr_utils/safety_stop.py
+[2.294s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_utils/local/lib/python3.10/dist-packages/amr_utils/__init__.py
+[2.575s] Listing '/home/npd/Desktop/amr_bot/install/amr_utils/local/lib/python3.10/dist-packages/amr_utils'...
+[2.607s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_utils/lib/amr_utils/safety_stop.py
+[2.607s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_utils/share/ament_index/resource_index/package_run_dependencies/amr_utils
+[2.607s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_utils/share/ament_index/resource_index/parent_prefix_path/amr_utils
+[2.607s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_utils/share/amr_utils/environment/ament_prefix_path.sh
+[2.608s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_utils/share/amr_utils/environment/ament_prefix_path.dsv
+[2.608s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_utils/share/amr_utils/environment/path.sh
+[2.608s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_utils/share/amr_utils/environment/path.dsv
+[2.608s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_utils/share/amr_utils/local_setup.bash
+[2.608s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_utils/share/amr_utils/local_setup.sh
+[2.609s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_utils/share/amr_utils/local_setup.zsh
+[2.609s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_utils/share/amr_utils/local_setup.dsv
+[2.609s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_utils/share/amr_utils/package.dsv
+[2.616s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_utils/share/ament_index/resource_index/packages/amr_utils
+[2.617s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_utils/share/amr_utils/cmake/amr_utilsConfig.cmake
+[2.617s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_utils/share/amr_utils/cmake/amr_utilsConfig-version.cmake
+[2.617s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_utils/share/amr_utils/package.xml
+[2.631s] Invoked command in '/home/npd/Desktop/amr_bot/build/amr_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_sensors:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/npd/Desktop/amr_bot/build/amr_utils

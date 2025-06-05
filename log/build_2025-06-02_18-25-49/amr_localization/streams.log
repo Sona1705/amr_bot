@@ -1,0 +1,52 @@
+[0.095s] Invoking command in '/home/npd/Desktop/amr_bot/build/amr_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_sensors:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/npd/Desktop/amr_bot/build/amr_localization -- -j4 -l4
+[0.753s] Built target ament_cmake_python_copy_amr_localization
+[0.805s] Built target ament_cmake_python_copy_amr_localization_setup
+[2.563s] running egg_info
+[2.563s] writing amr_localization.egg-info/PKG-INFO
+[2.563s] writing dependency_links to amr_localization.egg-info/dependency_links.txt
+[2.563s] writing top-level names to amr_localization.egg-info/top_level.txt
+[2.567s] reading manifest file 'amr_localization.egg-info/SOURCES.txt'
+[2.568s] writing manifest file 'amr_localization.egg-info/SOURCES.txt'
+[2.642s] Built target ament_cmake_python_build_amr_localization_egg
+[2.812s] Invoked command in '/home/npd/Desktop/amr_bot/build/amr_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_sensors:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/npd/Desktop/amr_bot/build/amr_localization -- -j4 -l4
+[2.817s] Invoking command in '/home/npd/Desktop/amr_bot/build/amr_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_sensors:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/npd/Desktop/amr_bot/build/amr_localization
+[2.920s] -- Install configuration: ""
+[2.921s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_localization/share/amr_localization/environment/pythonpath.sh
+[2.921s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_localization/share/amr_localization/environment/pythonpath.dsv
+[2.921s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_localization/local/lib/python3.10/dist-packages/amr_localization-0.0.0-py3.10.egg-info
+[2.921s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_localization/local/lib/python3.10/dist-packages/amr_localization-0.0.0-py3.10.egg-info/PKG-INFO
+[2.921s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_localization/local/lib/python3.10/dist-packages/amr_localization-0.0.0-py3.10.egg-info/top_level.txt
+[2.922s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_localization/local/lib/python3.10/dist-packages/amr_localization-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.925s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_localization/local/lib/python3.10/dist-packages/amr_localization-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.925s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_localization/local/lib/python3.10/dist-packages/amr_localization
+[2.926s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_localization/local/lib/python3.10/dist-packages/amr_localization/odometry_motion_model.py
+[2.926s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_localization/local/lib/python3.10/dist-packages/amr_localization/kalman_filter.py
+[2.926s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_localization/local/lib/python3.10/dist-packages/amr_localization/__init__.py
+[2.926s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_localization/local/lib/python3.10/dist-packages/amr_localization/imu_republisher.py
+[3.203s] Listing '/home/npd/Desktop/amr_bot/install/amr_localization/local/lib/python3.10/dist-packages/amr_localization'...
+[3.231s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_localization/lib/amr_localization/kalman_filter.py
+[3.231s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_localization/lib/amr_localization/imu_republisher.py
+[3.232s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_localization/lib/amr_localization/odometry_motion_model.py
+[3.232s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_localization/share/amr_localization/launch
+[3.232s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_localization/share/amr_localization/launch/__pycache__
+[3.232s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_localization/share/amr_localization/launch/__pycache__/local_localization.launch.cpython-310.pyc
+[3.233s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_localization/share/amr_localization/launch/local_localization.launch.py
+[3.233s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_localization/share/amr_localization/launch/global_localization.launch.py
+[3.233s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_localization/share/amr_localization/config
+[3.233s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_localization/share/amr_localization/config/ekf.yaml
+[3.233s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_localization/share/ament_index/resource_index/package_run_dependencies/amr_localization
+[3.236s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_localization/share/ament_index/resource_index/parent_prefix_path/amr_localization
+[3.236s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_localization/share/amr_localization/environment/ament_prefix_path.sh
+[3.236s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_localization/share/amr_localization/environment/ament_prefix_path.dsv
+[3.248s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_localization/share/amr_localization/environment/path.sh
+[3.249s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_localization/share/amr_localization/environment/path.dsv
+[3.250s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_localization/share/amr_localization/local_setup.bash
+[3.250s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_localization/share/amr_localization/local_setup.sh
+[3.250s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_localization/share/amr_localization/local_setup.zsh
+[3.251s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_localization/share/amr_localization/local_setup.dsv
+[3.251s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_localization/share/amr_localization/package.dsv
+[3.251s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_localization/share/ament_index/resource_index/packages/amr_localization
+[3.251s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_localization/share/amr_localization/cmake/amr_localizationConfig.cmake
+[3.251s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_localization/share/amr_localization/cmake/amr_localizationConfig-version.cmake
+[3.252s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_localization/share/amr_localization/package.xml
+[3.370s] Invoked command in '/home/npd/Desktop/amr_bot/build/amr_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_sensors:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/npd/Desktop/amr_bot/build/amr_localization

@@ -16,7 +16,8 @@ setup(
     entry_points={
         'console_scripts': [
             'simple_controller = amr_controller.simple_controller:main',
-            'noisy_controller = amr_controller.noisy_controller:main'
+            'noisy_controller = amr_controller.noisy_controller:main',
+            'twist_relay = amr_controller.twist_relay:main'
         ],
     },
 )

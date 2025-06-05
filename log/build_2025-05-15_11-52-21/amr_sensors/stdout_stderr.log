@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/amr_sensors/amr_sensors.egg-info
+writing ../../build/amr_sensors/amr_sensors.egg-info/PKG-INFO
+writing dependency_links to ../../build/amr_sensors/amr_sensors.egg-info/dependency_links.txt
+writing entry points to ../../build/amr_sensors/amr_sensors.egg-info/entry_points.txt
+writing requirements to ../../build/amr_sensors/amr_sensors.egg-info/requires.txt
+writing top-level names to ../../build/amr_sensors/amr_sensors.egg-info/top_level.txt
+writing manifest file '../../build/amr_sensors/amr_sensors.egg-info/SOURCES.txt'
+reading manifest file '../../build/amr_sensors/amr_sensors.egg-info/SOURCES.txt'
+writing manifest file '../../build/amr_sensors/amr_sensors.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/npd/Desktop/amr_bot/build/amr_sensors/build
+creating /home/npd/Desktop/amr_bot/build/amr_sensors/build/lib
+creating /home/npd/Desktop/amr_bot/build/amr_sensors/build/lib/amr_sensors
+copying amr_sensors/front_lidar_reader.py -> /home/npd/Desktop/amr_bot/build/amr_sensors/build/lib/amr_sensors
+copying amr_sensors/__init__.py -> /home/npd/Desktop/amr_bot/build/amr_sensors/build/lib/amr_sensors
+running install
+running install_lib
+creating /home/npd/Desktop/amr_bot/install/amr_sensors/lib/python3.10/site-packages/amr_sensors
+copying /home/npd/Desktop/amr_bot/build/amr_sensors/build/lib/amr_sensors/front_lidar_reader.py -> /home/npd/Desktop/amr_bot/install/amr_sensors/lib/python3.10/site-packages/amr_sensors
+copying /home/npd/Desktop/amr_bot/build/amr_sensors/build/lib/amr_sensors/__init__.py -> /home/npd/Desktop/amr_bot/install/amr_sensors/lib/python3.10/site-packages/amr_sensors
+byte-compiling /home/npd/Desktop/amr_bot/install/amr_sensors/lib/python3.10/site-packages/amr_sensors/front_lidar_reader.py to front_lidar_reader.cpython-310.pyc
+byte-compiling /home/npd/Desktop/amr_bot/install/amr_sensors/lib/python3.10/site-packages/amr_sensors/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/npd/Desktop/amr_bot/install/amr_sensors/share/ament_index
+creating /home/npd/Desktop/amr_bot/install/amr_sensors/share/ament_index/resource_index
+creating /home/npd/Desktop/amr_bot/install/amr_sensors/share/ament_index/resource_index/packages
+copying resource/amr_sensors -> /home/npd/Desktop/amr_bot/install/amr_sensors/share/ament_index/resource_index/packages
+copying package.xml -> /home/npd/Desktop/amr_bot/install/amr_sensors/share/amr_sensors
+running install_egg_info
+Copying ../../build/amr_sensors/amr_sensors.egg-info to /home/npd/Desktop/amr_bot/install/amr_sensors/lib/python3.10/site-packages/amr_sensors-0.0.0-py3.10.egg-info
+running install_scripts
+Installing front_lidar_reader script to /home/npd/Desktop/amr_bot/install/amr_sensors/lib/amr_sensors
+writing list of installed files to '/home/npd/Desktop/amr_bot/build/amr_sensors/install.log'

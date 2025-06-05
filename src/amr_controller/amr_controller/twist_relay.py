@@ -3,7 +3,7 @@ import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import Twist, TwistStamped
 
-class TwistRelay(Node):
+class TwistRelayNode(Node):
     def __init__(self):
         super().__init__("twist_relay")
         self.controller_sub = self.create_subscription(
@@ -19,7 +19,7 @@ class TwistRelay(Node):
         )
         self.joy_sub = self.create_subscription(
             TwistStamped,
-            "input_joy/cmd_vel_stamped",
+            "/input_joy/cmd_vel_stamped",
             self.joy_twist_callback,
             10
         )
@@ -36,13 +36,13 @@ class TwistRelay(Node):
         self.controller_pub.publish(twist_stamped)
 
     def joy_twist_callback(self, msg):
-        twist = twist()
+        twist = Twist()
         twist = msg.twist
         self.joy_pub.publish(twist)
 
-def main():
-    rclpy.init()
-    node = TwistRelay()
+def main(args=None):
+    rclpy.init(args=args)
+    node = TwistRelayNode()
     rclpy.spin(node)
     node.destroy_node()
     rclpy.shutdown()

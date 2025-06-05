@@ -1,0 +1,173 @@
+[0.056s] Invoking command in '/home/npd/Desktop/amr_bot/build/amr_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_sensors:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/npd/Desktop/amr_bot/build/amr_msgs -- -j4 -l4
+[0.283s] [  2%] Built target amr_msgs__cpp
+[0.308s] [ 12%] Built target amr_msgs__rosidl_generator_c
+[0.339s] [ 12%] Built target ament_cmake_python_copy_amr_msgs
+[0.450s] [ 23%] Built target amr_msgs__rosidl_typesupport_cpp
+[0.450s] [ 33%] Built target amr_msgs__rosidl_typesupport_fastrtps_cpp
+[0.453s] [ 43%] Built target amr_msgs__rosidl_typesupport_introspection_cpp
+[0.505s] [ 53%] Built target amr_msgs__rosidl_typesupport_fastrtps_c
+[0.631s] [ 64%] Built target amr_msgs__rosidl_typesupport_introspection_c
+[0.656s] [ 74%] Built target amr_msgs__rosidl_typesupport_c
+[1.092s] [ 74%] Built target amr_msgs
+[1.279s] [ 76%] Built target amr_msgs__py
+[1.288s] [ 84%] Built target amr_msgs__rosidl_generator_py
+[1.501s] [ 89%] Built target amr_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.510s] [ 94%] Built target amr_msgs__rosidl_typesupport_introspection_c__pyext
+[1.536s] [100%] Built target amr_msgs__rosidl_typesupport_c__pyext
+[2.741s] running egg_info
+[2.747s] writing amr_msgs.egg-info/PKG-INFO
+[2.748s] writing dependency_links to amr_msgs.egg-info/dependency_links.txt
+[2.749s] writing top-level names to amr_msgs.egg-info/top_level.txt
+[2.776s] reading manifest file 'amr_msgs.egg-info/SOURCES.txt'
+[2.780s] writing manifest file 'amr_msgs.egg-info/SOURCES.txt'
+[2.924s] [100%] Built target ament_cmake_python_build_amr_msgs_egg
+[2.994s] Invoked command in '/home/npd/Desktop/amr_bot/build/amr_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_sensors:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/npd/Desktop/amr_bot/build/amr_msgs -- -j4 -l4
+[3.007s] Invoking command in '/home/npd/Desktop/amr_bot/build/amr_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_sensors:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/npd/Desktop/amr_bot/build/amr_msgs
+[3.078s] -- Install configuration: ""
+[3.082s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/ament_index/resource_index/rosidl_interfaces/amr_msgs
+[3.089s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs
+[3.089s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/msg
+[3.089s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.089s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv
+[3.089s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv/add_twoints.h
+[3.090s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail
+[3.090s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/add_twoints__functions.h
+[3.090s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/get_transform__functions.c
+[3.090s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/add_twoints__functions.c
+[3.090s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/add_twoints__type_support.h
+[3.091s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/get_transform__type_support.h
+[3.091s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/get_transform__functions.h
+[3.091s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/add_twoints__struct.h
+[3.095s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/get_transform__struct.h
+[3.096s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv/get_transform.h
+[3.096s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/environment/library_path.sh
+[3.096s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/environment/library_path.dsv
+[3.097s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/lib/libamr_msgs__rosidl_generator_c.so
+[3.097s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs
+[3.097s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/msg
+[3.104s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.106s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv
+[3.107s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail
+[3.107s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/get_transform__rosidl_typesupport_fastrtps_c.h
+[3.107s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/add_twoints__rosidl_typesupport_fastrtps_c.h
+[3.114s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/lib/libamr_msgs__rosidl_typesupport_fastrtps_c.so
+[3.115s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs
+[3.115s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/msg
+[3.132s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.132s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv
+[3.133s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv/add_twoints.hpp
+[3.133s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv/get_transform.hpp
+[3.133s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail
+[3.135s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/get_transform__type_support.hpp
+[3.135s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/add_twoints__traits.hpp
+[3.135s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/add_twoints__struct.hpp
+[3.135s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/get_transform__builder.hpp
+[3.135s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/add_twoints__builder.hpp
+[3.135s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/add_twoints__type_support.hpp
+[3.136s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/get_transform__struct.hpp
+[3.136s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/get_transform__traits.hpp
+[3.136s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs
+[3.154s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/msg
+[3.157s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.157s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv
+[3.157s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail
+[3.157s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/add_twoints__rosidl_typesupport_fastrtps_cpp.hpp
+[3.157s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/get_transform__rosidl_typesupport_fastrtps_cpp.hpp
+[3.158s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/dds_fastrtps
+[3.158s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/lib/libamr_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.158s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs
+[3.159s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/msg
+[3.159s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.165s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv
+[3.168s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail
+[3.169s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/add_twoints__type_support.c
+[3.169s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/get_transform__rosidl_typesupport_introspection_c.h
+[3.169s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/add_twoints__rosidl_typesupport_introspection_c.h
+[3.169s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/get_transform__type_support.c
+[3.169s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/lib/libamr_msgs__rosidl_typesupport_introspection_c.so
+[3.189s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/lib/libamr_msgs__rosidl_typesupport_c.so
+[3.189s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs
+[3.189s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv
+[3.189s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail
+[3.189s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/get_transform__type_support.cpp
+[3.190s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/get_transform__rosidl_typesupport_introspection_cpp.hpp
+[3.190s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/add_twoints__rosidl_typesupport_introspection_cpp.hpp
+[3.190s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/add_twoints__type_support.cpp
+[3.190s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/lib/libamr_msgs__rosidl_typesupport_introspection_cpp.so
+[3.190s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/lib/libamr_msgs__rosidl_typesupport_cpp.so
+[3.191s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/environment/pythonpath.sh
+[3.191s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/environment/pythonpath.dsv
+[3.191s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs-0.0.0-py3.10.egg-info
+[3.198s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[3.210s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[3.211s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.211s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.212s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs
+[3.212s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs/libamr_msgs__rosidl_generator_py.so
+[3.215s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs/amr_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.216s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs/_amr_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[3.223s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs/amr_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.224s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs/_amr_msgs_s.ep.rosidl_typesupport_c.c
+[3.225s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs/__init__.py
+[3.225s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs/srv
+[3.225s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs/srv/_add_twoints.py
+[3.225s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs/srv/_add_twoints_s.c
+[3.225s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs/srv/_get_transform.py
+[3.225s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs/srv/_get_transform_s.c
+[3.226s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs/srv/__init__.py
+[3.226s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs/_amr_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.226s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs/amr_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.347s] Listing '/home/npd/Desktop/amr_bot/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs'...
+[3.348s] Listing '/home/npd/Desktop/amr_bot/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs/srv'...
+[3.365s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs/amr_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.372s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs/amr_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.373s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs/amr_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.373s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/lib/libamr_msgs__rosidl_generator_py.so
+[3.374s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/srv/AddTwoints.idl
+[3.374s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/srv/GetTransform.idl
+[3.375s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/srv/AddTwoints.srv
+[3.379s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/srv/AddTwoints_Request.msg
+[3.379s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/srv/AddTwoints_Response.msg
+[3.380s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/srv/GetTransform.srv
+[3.381s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/srv/GetTransform_Request.msg
+[3.381s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/srv/GetTransform_Response.msg
+[3.385s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/ament_index/resource_index/package_run_dependencies/amr_msgs
+[3.385s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/ament_index/resource_index/parent_prefix_path/amr_msgs
+[3.386s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/environment/ament_prefix_path.sh
+[3.386s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/environment/ament_prefix_path.dsv
+[3.386s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/environment/path.sh
+[3.387s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/environment/path.dsv
+[3.387s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/local_setup.bash
+[3.388s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/local_setup.sh
+[3.389s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/local_setup.zsh
+[3.389s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/local_setup.dsv
+[3.390s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/package.dsv
+[3.391s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/ament_index/resource_index/packages/amr_msgs
+[3.395s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/cmake/export_amr_msgs__rosidl_generator_cExport.cmake
+[3.396s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/cmake/export_amr_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.396s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/cmake/export_amr_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.396s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/cmake/export_amr_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.397s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/cmake/export_amr_msgs__rosidl_generator_cppExport.cmake
+[3.398s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/cmake/export_amr_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.399s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/cmake/export_amr_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.399s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/cmake/amr_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.401s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/cmake/amr_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.401s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/cmake/amr_msgs__rosidl_typesupport_cExport.cmake
+[3.403s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/cmake/amr_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.404s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/cmake/amr_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.407s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/cmake/amr_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.407s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/cmake/amr_msgs__rosidl_typesupport_cppExport.cmake
+[3.408s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/cmake/amr_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.411s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/cmake/export_amr_msgs__rosidl_generator_pyExport.cmake
+[3.411s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/cmake/export_amr_msgs__rosidl_generator_pyExport-noconfig.cmake
+[3.412s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/cmake/rosidl_cmake-extras.cmake
+[3.412s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.413s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.414s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.417s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.417s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.418s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.419s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/cmake/amr_msgsConfig.cmake
+[3.419s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/cmake/amr_msgsConfig-version.cmake
+[3.420s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_msgs/share/amr_msgs/package.xml
+[3.431s] Invoked command in '/home/npd/Desktop/amr_bot/build/amr_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_sensors:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/npd/Desktop/amr_bot/build/amr_msgs

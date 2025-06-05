@@ -1,8 +1,0 @@
-Built target ament_cmake_python_symlink_amr_controller
-running egg_info
-writing amr_controller.egg-info/PKG-INFO
-writing dependency_links to amr_controller.egg-info/dependency_links.txt
-writing top-level names to amr_controller.egg-info/top_level.txt
-reading manifest file 'amr_controller.egg-info/SOURCES.txt'
-writing manifest file 'amr_controller.egg-info/SOURCES.txt'
-Built target ament_cmake_python_build_amr_controller_egg

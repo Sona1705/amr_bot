@@ -8,15 +8,15 @@ slam_toolbox:
     mode: mapping
     resolution: 0.05
     max_laser_range: 10.0
-    transform_publish_period: 0.05
+    transform_publish_period: 0.1  # Slightly reduced rate to ease load
     map_publish_period: 1.0
     use_scan_matching: false
     enable_interactive_mode: true
     use_slam_mode: true
-    queue_size: 10000
-    tf_buffer_cache_time: 15.0
-    transform_timeout: 2.5
-    throttle_scans: 5
+    queue_size: 1000  
+    tf_buffer_cache_time: 10.0
+    transform_timeout: 3.0
+    throttle_scans: 5  # Throttle to reduce processing frequency
     laser_frame: laser_frame
     map_start_pose: [0.0, 0.0, 0.0]
 

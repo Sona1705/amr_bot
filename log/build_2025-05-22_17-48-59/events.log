@@ -1,0 +1,57 @@
+[0.000000] (-) TimerEvent: {}
+[0.000430] (-) JobUnselected: {'identifier': 'amr_bringup'}
+[0.000883] (-) JobUnselected: {'identifier': 'amr_controller'}
+[0.001130] (-) JobUnselected: {'identifier': 'amr_cpp_examples'}
+[0.001299] (-) JobUnselected: {'identifier': 'amr_description'}
+[0.001358] (-) JobUnselected: {'identifier': 'amr_localization'}
+[0.001432] (-) JobUnselected: {'identifier': 'amr_msgs'}
+[0.001500] (-) JobUnselected: {'identifier': 'amr_py_examples'}
+[0.001546] (-) JobUnselected: {'identifier': 'ydlidar_ros2_driver'}
+[0.001610] (amr_sensors) JobQueued: {'identifier': 'amr_sensors', 'dependencies': OrderedDict()}
+[0.001663] (amr_sensors) JobStarted: {'identifier': 'amr_sensors'}
+[0.099030] (-) TimerEvent: {}
+[0.199434] (-) TimerEvent: {}
+[0.299808] (-) TimerEvent: {}
+[0.400174] (-) TimerEvent: {}
+[0.500543] (-) TimerEvent: {}
+[0.600908] (-) TimerEvent: {}
+[0.701283] (-) TimerEvent: {}
+[0.801669] (-) TimerEvent: {}
+[0.902024] (-) TimerEvent: {}
+[1.002396] (-) TimerEvent: {}
+[1.102728] (-) TimerEvent: {}
+[1.203143] (-) TimerEvent: {}
+[1.303564] (-) TimerEvent: {}
+[1.403966] (-) TimerEvent: {}
+[1.411229] (amr_sensors) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/amr_sensors', 'build', '--build-base', '/home/npd/Desktop/amr_bot/build/amr_sensors/build', 'install', '--record', '/home/npd/Desktop/amr_bot/build/amr_sensors/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/npd/Desktop/amr_bot/src/amr_sensors', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'npd', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/npd/Desktop/amr_bot/install/amr_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib:', 'HOME': '/home/npd', 'OLDPWD': '/home/npd/Desktop', 'DESKTOP_SESSION': 'ubuntu', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1367', 'SYSTEMD_EXEC_PID': '1540', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/npd/Desktop/amr_bot/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'npd', 'JOURNAL_STREAM': '8:12762', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'npd', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo/../../share/gazebo-11/models:/home/npd/.gazebo/models:/home/npd/desktop/amr_bot/src/amr_description/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/home/npd/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/npd-Latitude-3480:@/tmp/.ICE-unix/1500,unix/npd-Latitude-3480:/tmp/.ICE-unix/1500', 'INVOCATION_ID': '90a1c65603484dd490004e2aaeb8ee87', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.SSQP62', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/npd/Desktop/amr_bot/install/ydlidar_ros2_driver:/home/npd/Desktop/amr_bot/install/amr_sensors:/home/npd/Desktop/amr_bot/install/amr_py_examples:/home/npd/Desktop/amr_bot/install/amr_msgs:/home/npd/Desktop/amr_bot/install/amr_localization:/home/npd/Desktop/amr_bot/install/amr_description:/home/npd/Desktop/amr_bot/install/amr_cpp_examples:/home/npd/Desktop/amr_bot/install/amr_controller:/home/npd/Desktop/amr_bot/install/amr_bringup:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:1f831c4e-8964-429d-94b6-c02cf1660acb', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo/../../share/gazebo-11::/USR/share/gazebo-11', 'GJS_DEBUG_OUTPUT': 'stderr', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/npd/Desktop/amr_bot/build/amr_sensors', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/npd/Desktop/amr_bot/build/amr_sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/npd/Desktop/amr_bot/install/amr_sensors/lib/python3.10/site-packages:/home/npd/Desktop/amr_bot/install/amr_sensors/lib/python3.10/site-packages:/home/npd/Desktop/amr_bot/install/amr_py_examples/lib/python3.10/site-packages:/home/npd/Desktop/amr_bot/install/amr_msgs/local/lib/python3.10/dist-packages:/home/npd/Desktop/amr_bot/install/amr_localization/local/lib/python3.10/dist-packages:/home/npd/Desktop/amr_bot/install/amr_controller/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/npd/Desktop/amr_bot/install/ydlidar_ros2_driver:/home/npd/Desktop/amr_bot/install/amr_msgs:/home/npd/Desktop/amr_bot/install/amr_localization:/home/npd/Desktop/amr_bot/install/amr_description:/home/npd/Desktop/amr_bot/install/amr_cpp_examples:/home/npd/Desktop/amr_bot/install/amr_controller:/home/npd/Desktop/amr_bot/install/amr_bringup'}, 'shell': False}
+[1.504125] (-) TimerEvent: {}
+[1.604514] (-) TimerEvent: {}
+[1.704916] (-) TimerEvent: {}
+[1.805295] (-) TimerEvent: {}
+[1.901228] (amr_sensors) StdoutLine: {'line': b'running egg_info\n'}
+[1.902661] (amr_sensors) StdoutLine: {'line': b'writing ../../build/amr_sensors/amr_sensors.egg-info/PKG-INFO\n'}
+[1.903099] (amr_sensors) StdoutLine: {'line': b'writing dependency_links to ../../build/amr_sensors/amr_sensors.egg-info/dependency_links.txt\n'}
+[1.903470] (amr_sensors) StdoutLine: {'line': b'writing entry points to ../../build/amr_sensors/amr_sensors.egg-info/entry_points.txt\n'}
+[1.903785] (amr_sensors) StdoutLine: {'line': b'writing requirements to ../../build/amr_sensors/amr_sensors.egg-info/requires.txt\n'}
+[1.904079] (amr_sensors) StdoutLine: {'line': b'writing top-level names to ../../build/amr_sensors/amr_sensors.egg-info/top_level.txt\n'}
+[1.905382] (-) TimerEvent: {}
+[1.908558] (amr_sensors) StdoutLine: {'line': b"reading manifest file '../../build/amr_sensors/amr_sensors.egg-info/SOURCES.txt'\n"}
+[1.910248] (amr_sensors) StdoutLine: {'line': b"writing manifest file '../../build/amr_sensors/amr_sensors.egg-info/SOURCES.txt'\n"}
+[1.910630] (amr_sensors) StdoutLine: {'line': b'running build\n'}
+[1.910885] (amr_sensors) StdoutLine: {'line': b'running build_py\n'}
+[1.911062] (amr_sensors) StdoutLine: {'line': b'copying amr_sensors/front_lidar_reader.py -> /home/npd/Desktop/amr_bot/build/amr_sensors/build/lib/amr_sensors\n'}
+[1.911634] (amr_sensors) StdoutLine: {'line': b'running install\n'}
+[1.912341] (amr_sensors) StdoutLine: {'line': b'running install_lib\n'}
+[1.913729] (amr_sensors) StdoutLine: {'line': b'copying /home/npd/Desktop/amr_bot/build/amr_sensors/build/lib/amr_sensors/front_lidar_reader.py -> /home/npd/Desktop/amr_bot/install/amr_sensors/lib/python3.10/site-packages/amr_sensors\n'}
+[1.914867] (amr_sensors) StdoutLine: {'line': b'byte-compiling /home/npd/Desktop/amr_bot/install/amr_sensors/lib/python3.10/site-packages/amr_sensors/front_lidar_reader.py to front_lidar_reader.cpython-310.pyc\n'}
+[1.916044] (amr_sensors) StdoutLine: {'line': b'running install_data\n'}
+[1.916394] (amr_sensors) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.919582] (amr_sensors) StdoutLine: {'line': b"removing '/home/npd/Desktop/amr_bot/install/amr_sensors/lib/python3.10/site-packages/amr_sensors-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.920285] (amr_sensors) StdoutLine: {'line': b'Copying ../../build/amr_sensors/amr_sensors.egg-info to /home/npd/Desktop/amr_bot/install/amr_sensors/lib/python3.10/site-packages/amr_sensors-0.0.0-py3.10.egg-info\n'}
+[1.922158] (amr_sensors) StdoutLine: {'line': b'running install_scripts\n'}
+[1.961615] (amr_sensors) StdoutLine: {'line': b'Installing front_lidar_reader script to /home/npd/Desktop/amr_bot/install/amr_sensors/lib/amr_sensors\n'}
+[1.962335] (amr_sensors) StdoutLine: {'line': b"writing list of installed files to '/home/npd/Desktop/amr_bot/build/amr_sensors/install.log'\n"}
+[2.000982] (amr_sensors) CommandEnded: {'returncode': 0}
+[2.005521] (-) TimerEvent: {}
+[2.024401] (amr_sensors) JobEnded: {'identifier': 'amr_sensors', 'rc': 0}
+[2.025842] (-) EventReactorShutdown: {}

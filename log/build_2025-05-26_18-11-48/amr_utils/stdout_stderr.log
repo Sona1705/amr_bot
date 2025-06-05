@@ -1,0 +1,57 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+-- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/npd/Desktop/amr_bot/build/amr_utils
+Built target ament_cmake_python_copy_amr_utils
+running egg_info
+creating amr_utils.egg-info
+writing amr_utils.egg-info/PKG-INFO
+writing dependency_links to amr_utils.egg-info/dependency_links.txt
+writing top-level names to amr_utils.egg-info/top_level.txt
+writing manifest file 'amr_utils.egg-info/SOURCES.txt'
+reading manifest file 'amr_utils.egg-info/SOURCES.txt'
+writing manifest file 'amr_utils.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_amr_utils_egg
+-- Install configuration: ""
+-- Installing: /home/npd/Desktop/amr_bot/install/amr_utils/share/amr_utils/environment/pythonpath.sh
+-- Installing: /home/npd/Desktop/amr_bot/install/amr_utils/share/amr_utils/environment/pythonpath.dsv
+-- Installing: /home/npd/Desktop/amr_bot/install/amr_utils/local/lib/python3.10/dist-packages/amr_utils-0.0.0-py3.10.egg-info
+-- Installing: /home/npd/Desktop/amr_bot/install/amr_utils/local/lib/python3.10/dist-packages/amr_utils-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/npd/Desktop/amr_bot/install/amr_utils/local/lib/python3.10/dist-packages/amr_utils-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/npd/Desktop/amr_bot/install/amr_utils/local/lib/python3.10/dist-packages/amr_utils-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/npd/Desktop/amr_bot/install/amr_utils/local/lib/python3.10/dist-packages/amr_utils-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/npd/Desktop/amr_bot/install/amr_utils/local/lib/python3.10/dist-packages/amr_utils
+-- Installing: /home/npd/Desktop/amr_bot/install/amr_utils/local/lib/python3.10/dist-packages/amr_utils/safety_stop.py
+-- Installing: /home/npd/Desktop/amr_bot/install/amr_utils/local/lib/python3.10/dist-packages/amr_utils/__init__.py
+Listing '/home/npd/Desktop/amr_bot/install/amr_utils/local/lib/python3.10/dist-packages/amr_utils'...
+Compiling '/home/npd/Desktop/amr_bot/install/amr_utils/local/lib/python3.10/dist-packages/amr_utils/__init__.py'...
+Compiling '/home/npd/Desktop/amr_bot/install/amr_utils/local/lib/python3.10/dist-packages/amr_utils/safety_stop.py'...
+-- Installing: /home/npd/Desktop/amr_bot/install/amr_utils/lib/amr_utils/safety_stop.py
+-- Installing: /home/npd/Desktop/amr_bot/install/amr_utils/share/ament_index/resource_index/package_run_dependencies/amr_utils
+-- Installing: /home/npd/Desktop/amr_bot/install/amr_utils/share/ament_index/resource_index/parent_prefix_path/amr_utils
+-- Installing: /home/npd/Desktop/amr_bot/install/amr_utils/share/amr_utils/environment/ament_prefix_path.sh
+-- Installing: /home/npd/Desktop/amr_bot/install/amr_utils/share/amr_utils/environment/ament_prefix_path.dsv
+-- Installing: /home/npd/Desktop/amr_bot/install/amr_utils/share/amr_utils/environment/path.sh
+-- Installing: /home/npd/Desktop/amr_bot/install/amr_utils/share/amr_utils/environment/path.dsv
+-- Installing: /home/npd/Desktop/amr_bot/install/amr_utils/share/amr_utils/local_setup.bash
+-- Installing: /home/npd/Desktop/amr_bot/install/amr_utils/share/amr_utils/local_setup.sh
+-- Installing: /home/npd/Desktop/amr_bot/install/amr_utils/share/amr_utils/local_setup.zsh
+-- Installing: /home/npd/Desktop/amr_bot/install/amr_utils/share/amr_utils/local_setup.dsv
+-- Installing: /home/npd/Desktop/amr_bot/install/amr_utils/share/amr_utils/package.dsv
+-- Installing: /home/npd/Desktop/amr_bot/install/amr_utils/share/ament_index/resource_index/packages/amr_utils
+-- Installing: /home/npd/Desktop/amr_bot/install/amr_utils/share/amr_utils/cmake/amr_utilsConfig.cmake
+-- Installing: /home/npd/Desktop/amr_bot/install/amr_utils/share/amr_utils/cmake/amr_utilsConfig-version.cmake
+-- Installing: /home/npd/Desktop/amr_bot/install/amr_utils/share/amr_utils/package.xml

@@ -1,0 +1,82 @@
+[0.052s] Invoking command in '/home/npd/Desktop/amr_bot/build/amr_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_sensors:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/npd/Desktop/amr_bot/build/amr_controller -- -j4 -l4
+[0.156s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.524s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[1.524s] -- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)
+[1.708s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.727s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.786s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.880s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.995s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.175s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.269s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.407s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.535s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[2.562s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.975s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.993s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[3.183s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[4.477s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.856s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.860s] -- Added test 'lint_cmake' to check CMake code style
+[4.862s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.875s] -- Added test 'xmllint' to check XML markup files
+[4.880s] -- Configuring done
+[4.918s] -- Generating done
+[4.946s] -- Build files have been written to: /home/npd/Desktop/amr_bot/build/amr_controller
+[5.106s] Built target ament_cmake_python_copy_amr_controller_setup
+[5.190s] Built target ament_cmake_python_copy_amr_controller
+[6.567s] running egg_info
+[6.567s] writing amr_controller.egg-info/PKG-INFO
+[6.567s] writing dependency_links to amr_controller.egg-info/dependency_links.txt
+[6.567s] writing top-level names to amr_controller.egg-info/top_level.txt
+[6.573s] reading manifest file 'amr_controller.egg-info/SOURCES.txt'
+[6.581s] writing manifest file 'amr_controller.egg-info/SOURCES.txt'
+[6.670s] Built target ament_cmake_python_build_amr_controller_egg
+[6.726s] Invoked command in '/home/npd/Desktop/amr_bot/build/amr_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_sensors:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/npd/Desktop/amr_bot/build/amr_controller -- -j4 -l4
+[6.728s] Invoking command in '/home/npd/Desktop/amr_bot/build/amr_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_sensors:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/npd/Desktop/amr_bot/build/amr_controller
+[6.779s] -- Install configuration: ""
+[6.779s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/environment/pythonpath.sh
+[6.780s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/environment/pythonpath.dsv
+[6.783s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_controller/local/lib/python3.10/dist-packages/amr_controller-0.0.0-py3.10.egg-info
+[6.784s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_controller/local/lib/python3.10/dist-packages/amr_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[6.784s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_controller/local/lib/python3.10/dist-packages/amr_controller-0.0.0-py3.10.egg-info/top_level.txt
+[6.786s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_controller/local/lib/python3.10/dist-packages/amr_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.786s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_controller/local/lib/python3.10/dist-packages/amr_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.786s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_controller/local/lib/python3.10/dist-packages/amr_controller
+[6.789s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_controller/local/lib/python3.10/dist-packages/amr_controller/noisy_controller.py
+[6.790s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_controller/local/lib/python3.10/dist-packages/amr_controller/simple_controller.py
+[6.790s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_controller/local/lib/python3.10/dist-packages/amr_controller/twist_relay.py
+[6.790s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_controller/local/lib/python3.10/dist-packages/amr_controller/__init__.py
+[6.922s] Listing '/home/npd/Desktop/amr_bot/install/amr_controller/local/lib/python3.10/dist-packages/amr_controller'...
+[6.922s] Compiling '/home/npd/Desktop/amr_bot/install/amr_controller/local/lib/python3.10/dist-packages/amr_controller/twist_relay.py'...
+[6.939s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/config
+[6.940s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/config/amr_controllers.yaml
+[6.941s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/config/joy_teleop.yaml
+[6.944s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/config/twist_mux_joy.yaml
+[6.945s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/config/slam.yaml
+[6.945s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/config/twist_mux_locks.yaml
+[6.945s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/config/twist_mux_topics.yaml
+[6.946s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/config/joy_config.yaml
+[6.946s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/launch
+[6.946s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/launch/slam.launch.py
+[6.947s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/launch/joystick_teleop.launch.py
+[6.947s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/launch/controller.launch.py
+[6.947s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_controller/lib/amr_controller/simple_controller.py
+[6.947s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_controller/lib/amr_controller/noisy_controller.py
+[6.947s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_controller/lib/amr_controller/twist_relay.py
+[6.948s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_controller/share/ament_index/resource_index/package_run_dependencies/amr_controller
+[6.950s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_controller/share/ament_index/resource_index/parent_prefix_path/amr_controller
+[6.951s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/environment/ament_prefix_path.sh
+[6.951s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/environment/ament_prefix_path.dsv
+[6.952s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/environment/path.sh
+[6.952s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/environment/path.dsv
+[6.955s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/local_setup.bash
+[6.956s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/local_setup.sh
+[6.956s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/local_setup.zsh
+[6.957s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/local_setup.dsv
+[6.957s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/package.dsv
+[6.957s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_controller/share/ament_index/resource_index/packages/amr_controller
+[6.958s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/cmake/amr_controllerConfig.cmake
+[6.958s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/cmake/amr_controllerConfig-version.cmake
+[6.958s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_controller/share/amr_controller/package.xml
+[6.971s] Invoked command in '/home/npd/Desktop/amr_bot/build/amr_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_sensors:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/npd/Desktop/amr_bot/build/amr_controller

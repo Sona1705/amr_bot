@@ -32,34 +32,44 @@ class FrontLidarReader(Node):
 
     def lidar_callback(self, msg):
         obstacle_detected = False
-        front_min_angle = -180.0  # degrees
-        front_max_angle = 180.0   # degrees
+        points = []
 
-        current_angle = msg.angle_min
+        # Define the front sector in degrees (e.g., -90° to +90°)
+        front_min_angle = 0  # left limit (degrees)
+        front_max_angle = 360.0   # right limit (degrees)
 
-        for i, r in enumerate(msg.ranges):
-            # Skip invalid range values
+        current_angle = msg.angle_min  # in radians
+
+        for r in msg.ranges:
             if not (msg.range_min < r < msg.range_max):
                 current_angle += msg.angle_increment
                 continue
 
             angle_deg = math.degrees(current_angle)
 
-            # Process only front 180° range
+            # Only consider points in the front field of view
             if front_min_angle <= angle_deg <= front_max_angle:
-                # Print range and angle
-                print(f"Radius: {r:.2f} m, Theta: {angle_deg:.2f}°")
+                # (0, 0) is the origin at the center of the LIDAR
+                x = r * math.cos(current_angle)
+                y = r * math.sin(current_angle)
+                points.append((x, y))
 
-                # Obstacle detection threshold
+                # Check for obstacles within 500 meters
                 if r <= 0.5:
                     self.get_logger().warn(
-                        f"Obstacle detected at {r:.2f} m, angle {angle_deg:.2f}°"
+                        f"Obstacle detected at {r:.2f} m, angle {angle_deg:.2f}°, X: {x:.2f}, Y: {y:.2f}"
                     )
                     obstacle_detected = True
                     break
 
             current_angle += msg.angle_increment
 
+        if points:
+            self.get_logger().info("Front-sector obstacle points (in meters):")
+            for (x, y) in points:
+                self.get_logger().info(f"X: {x:.2f}, Y: {y:.2f}")
+
+        # Stop robot if obstacle is detected
         if obstacle_detected and not self.stop_sent:
             self.stop_robot()
             self.stop_sent = True

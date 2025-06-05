@@ -1,10 +1,11 @@
 import os
+from os import pathsep
 from pathlib import Path
 from ament_index_python.packages import get_package_share_directory
 
 from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument, SetEnvironmentVariable, IncludeLaunchDescription
-from launch.substitutions import Command, LaunchConfiguration
+from launch.substitutions import Command, LaunchConfiguration , PathJoinSubstitution, PythonExpression
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 
 from launch_ros.actions import Node
@@ -23,6 +24,17 @@ def generate_launch_description():
         default_value=os.path.join(amr_description_dir, "urdf", "amr.urdf.xacro"),
         description="Absolute path to robot URDF file"
     )
+
+    world_name_arg = DeclareLaunchArgument(name="world_name", default_value="empty")
+
+    world_path = PathJoinSubstitution([
+        amr_description_dir,
+        "worlds",
+        PythonExpression(expression=["'", LaunchConfiguration("world_name"),"'", " + '.world'"])
+    ])
+
+    model_path = str(Path(amr_description_dir).parent.resolve())
+    model_path += pathsep + os.path.join(amr_description_dir, "models")
 
     is_ignition_arg = DeclareLaunchArgument(  
         name="is_ignition",
@@ -50,8 +62,7 @@ def generate_launch_description():
 
     # Set Gazebo environment variables for resources
     gazebo_resource_path = SetEnvironmentVariable(
-        name="GZ_SIM_RESOURCE_PATH",
-        value=str(Path(amr_description_dir).parent.resolve())
+        "GZ_SIM_RESOURCE_PATH", model_path
     )
     
     ignition_resource_path = SetEnvironmentVariable(
@@ -62,11 +73,10 @@ def generate_launch_description():
     # Include Gazebo simulation launch
     gazebo = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
-            os.path.join(get_package_share_directory("ros_gz_sim"), "launch", "gz_sim.launch.py")
-        ),
-        launch_arguments=[
-            ("gz_args", "-v 4 -r empty.sdf")  
-        ]
+            os.path.join(get_package_share_directory("ros_gz_sim"), "launch", "gz_sim.launch.py")),
+        launch_arguments={
+            "gz_args": PythonExpression(["'", world_path, " -v 4 -r'"])
+        }.items()
     )
 
     # Spawn the robot entity into Gazebo
@@ -80,7 +90,9 @@ def generate_launch_description():
         package="ros_gz_bridge",
         executable="parameter_bridge",
         arguments=[
-            "/imu@sensor_msgs/msg/Imu[gz.msgs.IMU"
+            "/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock",
+            "/imu@sensor_msgs/msg/Imu[gz.msgs.IMU",
+            "/scan@sensor_msgs/msg/LaserScan[gz.msgs.LaserScan"
         ],
         remappings=[
             ("/imu", "/imu/out")
@@ -96,6 +108,7 @@ def generate_launch_description():
     
     return LaunchDescription([
         model_arg,
+        world_name_arg,
         is_ignition_arg,  
         robot_state_publisher_node,
         gazebo_resource_path,

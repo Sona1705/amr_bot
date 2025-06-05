@@ -1,0 +1,22 @@
+[0.051s] Invoking command in '/home/npd/Desktop/amr_bot/build/amr_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_sensors:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/npd/Desktop/amr_bot/build/amr_bringup -- -j4 -l4
+[0.177s] Invoked command in '/home/npd/Desktop/amr_bot/build/amr_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_sensors:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/npd/Desktop/amr_bot/build/amr_bringup -- -j4 -l4
+[0.223s] Invoking command in '/home/npd/Desktop/amr_bot/build/amr_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_sensors:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/npd/Desktop/amr_bot/build/amr_bringup
+[0.284s] -- Install configuration: ""
+[0.285s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_bringup/share/amr_bringup/launch
+[0.285s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_bringup/share/amr_bringup/launch/simulated_robot.launch.py
+[0.285s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_bringup/share/ament_index/resource_index/package_run_dependencies/amr_bringup
+[0.285s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_bringup/share/ament_index/resource_index/parent_prefix_path/amr_bringup
+[0.285s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_bringup/share/amr_bringup/environment/ament_prefix_path.sh
+[0.286s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_bringup/share/amr_bringup/environment/ament_prefix_path.dsv
+[0.286s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_bringup/share/amr_bringup/environment/path.sh
+[0.286s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_bringup/share/amr_bringup/environment/path.dsv
+[0.286s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_bringup/share/amr_bringup/local_setup.bash
+[0.287s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_bringup/share/amr_bringup/local_setup.sh
+[0.287s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_bringup/share/amr_bringup/local_setup.zsh
+[0.287s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_bringup/share/amr_bringup/local_setup.dsv
+[0.303s] -- Installing: /home/npd/Desktop/amr_bot/install/amr_bringup/share/amr_bringup/package.dsv
+[0.303s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_bringup/share/ament_index/resource_index/packages/amr_bringup
+[0.304s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_bringup/share/amr_bringup/cmake/amr_bringupConfig.cmake
+[0.304s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_bringup/share/amr_bringup/cmake/amr_bringupConfig-version.cmake
+[0.304s] -- Up-to-date: /home/npd/Desktop/amr_bot/install/amr_bringup/share/amr_bringup/package.xml
+[0.316s] Invoked command in '/home/npd/Desktop/amr_bot/build/amr_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/npd/Desktop/amr_bot/install/amr_sensors:/home/npd/Desktop/amr_bot/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/npd/Desktop/amr_bot/build/amr_bringup
